@@ -28,10 +28,41 @@
         max-width: 100%;
       }
     </style>
+    <script>
+	var elem = document.documentElement;
+	function openFullscreen() {
+	  document.getElementById('fullscreen-btn').style.background = "#d3d3d366";
+	  if (elem.requestFullscreen) {
+		elem.requestFullscreen();
+	  } else if (elem.mozRequestFullScreen) { /* Firefox */
+		elem.mozRequestFullScreen();
+	  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+		elem.webkitRequestFullscreen();
+	  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+		elem.msRequestFullscreen();
+	  }
+	}
+
+	function closeFullscreen() {
+	  if (document.exitFullscreen) {
+		document.exitFullscreen();
+	  } else if (document.mozCancelFullScreen) {
+		document.mozCancelFullScreen();
+	  } else if (document.webkitExitFullscreen) {
+		document.webkitExitFullscreen();
+	  } else if (document.msExitFullscreen) {
+		document.msExitFullscreen();
+	  }
+	}
+	document.addEventListener("DOMContentLoaded", function() {
+	   console.log('Your document is ready!');
+	});			
+  </script>
   </head>
   <body>    
     <main>
       <section>
+	<a href="javascript:;" onclick="openFullscreen()" style="float: center:"><img  id="fullscreen-btn" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ic_fullscreen_48px.svg"></a>
         <a href="mailto:janis.rullis.photo@gmail.com" style="float: center:"><img src="email.png"></a>
 		
         <picture>          
