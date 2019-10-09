@@ -1,106 +1,114 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <!-- 
-  * https://developers.google.com/web/fundamentals/design-and-ux/responsive/images
-  * https://css-tricks.com/planning-for-responsive-images/
-  * https://css-tricks.com/responsive-images-css/
-  * https://internetingishard.com/html-and-css/responsive-images/
-  * https://medium.com/hceverything/applying-srcset-choosing-the-right-sizes-for-responsive-images-at-different-breakpoints-a0433450a4a3
-  * https://www.freecodecamp.org/news/time-saving-css-techniques-to-create-responsive-images-ebb1e84f90d5/
-  * https://www.freecodecamp.org/news/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433/
-  * https://stitcher.io/blog/responsive-images-done-right
-  * https://alligator.io/html/picture-element/
-  * https://www.html5rocks.com/en/tutorials/responsive/picture-element/
-  -->  
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Responsive HTML images demo</title>
-    <style>      
-      body {
-        width: 100%;
-        max-width: 1920px;
-        margin: 0 auto;		
-      }      
-      img {
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
-      }
-    </style>
-    <script>
-	var elem = document.documentElement;
-	var is_fullscreen=false;
-	function toggleFullscreen(){
-		if(is_fullscreen){
-			closeFullscreen();				
-		}else{
-			openFullscreen();				
-		}			
-	}
-	function openFullscreen() {
-	  is_fullscreen = true;
-	  document.getElementById('fullscreen-btn').style.background = "#d3d3d366";
-	  if (elem.requestFullscreen) {
-		elem.requestFullscreen();
-	  } else if (elem.mozRequestFullScreen) { /* Firefox */
-		elem.mozRequestFullScreen();
-	  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
-		elem.webkitRequestFullscreen();
-	  } else if (elem.msRequestFullscreen) { /* IE/Edge */
-		elem.msRequestFullscreen();
-	  }
-	}
+	<!DOCTYPE html>
+	<html>
+	  <head>
+	  <!-- 
+	  * https://developers.google.com/web/fundamentals/design-and-ux/responsive/images
+	  * https://css-tricks.com/planning-for-responsive-images/
+	  * https://css-tricks.com/responsive-images-css/
+	  * https://internetingishard.com/html-and-css/responsive-images/
+	  * https://medium.com/hceverything/applying-srcset-choosing-the-right-sizes-for-responsive-images-at-different-breakpoints-a0433450a4a3
+	  * https://www.freecodecamp.org/news/time-saving-css-techniques-to-create-responsive-images-ebb1e84f90d5/
+	  * https://www.freecodecamp.org/news/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433/
+	  * https://stitcher.io/blog/responsive-images-done-right
+	  * https://alligator.io/html/picture-element/
+	  * https://www.html5rocks.com/en/tutorials/responsive/picture-element/
+	  
+	  ## Icons
+	  *  https://upload.wikimedia.org/wikipedia/commons/4/4b/Bw-fullscreen.svg
+	  -->  
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Responsive HTML images demo</title>
+		<style>      
+		  body {
+			width: 100%;
+			max-width: 1920px;
+			margin: 0 auto;		
+		  }      
+		  img {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+		  }
+		</style>		
+		<script>
+			var elem = document.documentElement;
+			var is_fullscreen=false;
+			function toggleFullscreen(){
+				if(is_fullscreen){
+					closeFullscreen();				
+				}else{
+					openFullscreen();				
+				}			
+			}
+			function openFullscreen() {
+			  is_fullscreen = true;
+			  document.getElementById('fullscreen-btn').style.background = "#d3d3d366";
+			  if (elem.requestFullscreen) {
+				elem.requestFullscreen();
+			  } else if (elem.mozRequestFullScreen) { /* Firefox */
+				elem.mozRequestFullScreen();
+			  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+				elem.webkitRequestFullscreen();
+			  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+				elem.msRequestFullscreen();
+			  }
+			}
 
-	function closeFullscreen() {
-	   is_fullscreen = false;
-	   document.getElementById('fullscreen-btn').style.background = "initial";
-	  if (document.exitFullscreen) {
-		document.exitFullscreen();
-	  } else if (document.mozCancelFullScreen) {
-		document.mozCancelFullScreen();
-	  } else if (document.webkitExitFullscreen) {
-		document.webkitExitFullscreen();
-	  } else if (document.msExitFullscreen) {
-		document.msExitFullscreen();
-	  }
-	}
-	document.addEventListener("DOMContentLoaded", function() {
-	   console.log('Your document is ready!');
-	});
-  </script>
-  </head>
-  <body>    
-    <main>
-      <section>
-	<a href="javascript:;" onclick="toggleFullscreen()" style="float: center:"><img  id="fullscreen-btn" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ic_fullscreen_48px.svg"></a>
-        <a href="mailto:janis.rullis.photo@gmail.com" style="float: center:"><img src="email.png"></a>
-	
-        <picture>          
-	  <source media="(min-width: 1920px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1920, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w3840 2x">
-	  <source media="(min-width: 1600px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1600, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w3200 2x">
-	  <source media="(min-width: 1366px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1366, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w2732 2x">
-	  <source media="(min-width: 1024px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1024, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w2048 2x">
-	  <source media="(min-width: 768px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w768, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1536 2x">
-	  <source media="(min-width: 640px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w640, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1280 2x"> 
-	  <source media="(min-width: 450px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w450, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w900 2x">
-	  <source media="(max-width: 449px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w450, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w900 2x">
-	  <img alt="Image ALT descr" title="Image title" src="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1600">
-	</picture>
+			function closeFullscreen() {
+			   is_fullscreen = false;
+			   document.getElementById('fullscreen-btn').style.background = "initial";
+			  if (document.exitFullscreen) {
+				document.exitFullscreen();
+			  } else if (document.mozCancelFullScreen) {
+				document.mozCancelFullScreen();
+			  } else if (document.webkitExitFullscreen) {
+				document.webkitExitFullscreen();
+			  } else if (document.msExitFullscreen) {
+				document.msExitFullscreen();
+			  }
+			}
+			document.addEventListener("DOMContentLoaded", function() {
+			   console.log('Your document is ready!');
+			});			
+		</script>
+	  </head>
+	  <body>    
+		<main>
+		  <section>			
+			<a href="javascript:;" onclick="toggleFullscreen()" style="float: center:"><img  id="fullscreen-btn" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ic_fullscreen_48px.svg"></a>
+			<a href="mailto:janis.rullis.photo@gmail.com" style="float: center:"><img src="ui/img/email.png"></a>			
+			<picture>          
+			  <source media="(min-width: 1920px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1920, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w3840 2x">
+			  <source media="(min-width: 1600px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1600, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w3200 2x">
+			  <source media="(min-width: 1366px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1366, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w2732 2x">
 
-	<picture>          
-	  <source media="(min-width: 1920px)" srcset="https://lh3.googleusercontent.com/x-oYkK8cmO7if6Ys0WY2wBFaWFAovuA3d8tE3BYL5PEJiKAtPo6FNMFuKs3XI2vvNAV7zv__w3bCzBIDbMyVgjaMraAAqnpHNQyvVZJ09rAWumyUIZG434j9CS4uKrgx4VbSz1NbNak=w1920, https://lh3.googleusercontent.com/x-oYkK8cmO7if6Ys0WY2wBFaWFAovuA3d8tE3BYL5PEJiKAtPo6FNMFuKs3XI2vvNAV7zv__w3bCzBIDbMyVgjaMraAAqnpHNQyvVZJ09rAWumyUIZG434j9CS4uKrgx4VbSz1NbNak=w3840 2x">
-	  <source media="(min-width: 1600px)" srcset="https://lh3.googleusercontent.com/x-oYkK8cmO7if6Ys0WY2wBFaWFAovuA3d8tE3BYL5PEJiKAtPo6FNMFuKs3XI2vvNAV7zv__w3bCzBIDbMyVgjaMraAAqnpHNQyvVZJ09rAWumyUIZG434j9CS4uKrgx4VbSz1NbNak=w1600, https://lh3.googleusercontent.com/x-oYkK8cmO7if6Ys0WY2wBFaWFAovuA3d8tE3BYL5PEJiKAtPo6FNMFuKs3XI2vvNAV7zv__w3bCzBIDbMyVgjaMraAAqnpHNQyvVZJ09rAWumyUIZG434j9CS4uKrgx4VbSz1NbNak=w3200 2x">
-	  <source media="(min-width: 1366px)" srcset="https://lh3.googleusercontent.com/x-oYkK8cmO7if6Ys0WY2wBFaWFAovuA3d8tE3BYL5PEJiKAtPo6FNMFuKs3XI2vvNAV7zv__w3bCzBIDbMyVgjaMraAAqnpHNQyvVZJ09rAWumyUIZG434j9CS4uKrgx4VbSz1NbNak=w1366, https://lh3.googleusercontent.com/x-oYkK8cmO7if6Ys0WY2wBFaWFAovuA3d8tE3BYL5PEJiKAtPo6FNMFuKs3XI2vvNAV7zv__w3bCzBIDbMyVgjaMraAAqnpHNQyvVZJ09rAWumyUIZG434j9CS4uKrgx4VbSz1NbNak=w2732 2x">
-	  <source media="(min-width: 1024px)" srcset="https://lh3.googleusercontent.com/x-oYkK8cmO7if6Ys0WY2wBFaWFAovuA3d8tE3BYL5PEJiKAtPo6FNMFuKs3XI2vvNAV7zv__w3bCzBIDbMyVgjaMraAAqnpHNQyvVZJ09rAWumyUIZG434j9CS4uKrgx4VbSz1NbNak=w1024, https://lh3.googleusercontent.com/x-oYkK8cmO7if6Ys0WY2wBFaWFAovuA3d8tE3BYL5PEJiKAtPo6FNMFuKs3XI2vvNAV7zv__w3bCzBIDbMyVgjaMraAAqnpHNQyvVZJ09rAWumyUIZG434j9CS4uKrgx4VbSz1NbNak=w2048 2x">
-	  <source media="(min-width: 768px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w768, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1536 2x">
-	  <source media="(min-width: 640px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w640, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1280 2x"> 
-	  <source media="(min-width: 450px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w450, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w900 2x">
-	  <source media="(max-width: 449px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w450, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w900 2x">
-	  <img src="https://lh3.googleusercontent.com/x-oYkK8cmO7if6Ys0WY2wBFaWFAovuA3d8tE3BYL5PEJiKAtPo6FNMFuKs3XI2vvNAV7zv__w3bCzBIDbMyVgjaMraAAqnpHNQyvVZJ09rAWumyUIZG434j9CS4uKrgx4VbSz1NbNak=w1600">
-	</picture>
-        
-      </section>
-    </main>
-  </body>
-</html>
+			  <!--
+			  <source media="(min-width: 1024px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1024, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w2048 2x">
+			  <source media="(min-width: 768px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w768, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1536 2x">
+			  <source media="(min-width: 640px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w640, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1280 2x"> 
+			  <source media="(min-width: 450px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w450, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w900 2x">
+			  <source media="(max-width: 449px)" srcset="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w450, https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w900 2x">
+			  -->
+			  <img alt="Image ALT descr" title="Image title" src="https://lh3.googleusercontent.com/LRNYYnqAa6sevQe1LY2X_nXwJ_hq27zk5WTGq1rTj9FwK9d9MuoLxWBss1-NXVjYjldu4hm8aABP00VMj83pcPD5BhmezDWtyJfKkzPTmhpOuCt2XjLYi8HN0M6-9Woevsiw8SkF0y4=w1600">
+			</picture>
+			
+			
+			<picture>          
+			  <source media="(min-width: 1920px)" srcset="https://lh3.googleusercontent.com/JJw3ljpi7nLMy5iWzutay0WSg2FU2aUv_Ly7HreYnVLDhkjStqn2sx7g_cErTHyIJhS-lGVn5YPeWPShFVQ9jib3fsEtvbDq9Q3BizvSWw89Tf2sDjg9zR6UPyN5S7Wj4pAIN2pjUdE=w1920, https://lh3.googleusercontent.com/JJw3ljpi7nLMy5iWzutay0WSg2FU2aUv_Ly7HreYnVLDhkjStqn2sx7g_cErTHyIJhS-lGVn5YPeWPShFVQ9jib3fsEtvbDq9Q3BizvSWw89Tf2sDjg9zR6UPyN5S7Wj4pAIN2pjUdE=w3840 2x">
+			  <source media="(min-width: 1600px)" srcset="https://lh3.googleusercontent.com/JJw3ljpi7nLMy5iWzutay0WSg2FU2aUv_Ly7HreYnVLDhkjStqn2sx7g_cErTHyIJhS-lGVn5YPeWPShFVQ9jib3fsEtvbDq9Q3BizvSWw89Tf2sDjg9zR6UPyN5S7Wj4pAIN2pjUdE=w1600, https://lh3.googleusercontent.com/JJw3ljpi7nLMy5iWzutay0WSg2FU2aUv_Ly7HreYnVLDhkjStqn2sx7g_cErTHyIJhS-lGVn5YPeWPShFVQ9jib3fsEtvbDq9Q3BizvSWw89Tf2sDjg9zR6UPyN5S7Wj4pAIN2pjUdE=w3200 2x">
+			  <source media="(min-width: 1366px)" srcset="https://lh3.googleusercontent.com/JJw3ljpi7nLMy5iWzutay0WSg2FU2aUv_Ly7HreYnVLDhkjStqn2sx7g_cErTHyIJhS-lGVn5YPeWPShFVQ9jib3fsEtvbDq9Q3BizvSWw89Tf2sDjg9zR6UPyN5S7Wj4pAIN2pjUdE=w1366, https://lh3.googleusercontent.com/JJw3ljpi7nLMy5iWzutay0WSg2FU2aUv_Ly7HreYnVLDhkjStqn2sx7g_cErTHyIJhS-lGVn5YPeWPShFVQ9jib3fsEtvbDq9Q3BizvSWw89Tf2sDjg9zR6UPyN5S7Wj4pAIN2pjUdE=w2732 2x">
+			  <!--
+			  <source media="(min-width: 1024px)" srcset="https://lh3.googleusercontent.com/JJw3ljpi7nLMy5iWzutay0WSg2FU2aUv_Ly7HreYnVLDhkjStqn2sx7g_cErTHyIJhS-lGVn5YPeWPShFVQ9jib3fsEtvbDq9Q3BizvSWw89Tf2sDjg9zR6UPyN5S7Wj4pAIN2pjUdE=w1024, https://lh3.googleusercontent.com/JJw3ljpi7nLMy5iWzutay0WSg2FU2aUv_Ly7HreYnVLDhkjStqn2sx7g_cErTHyIJhS-lGVn5YPeWPShFVQ9jib3fsEtvbDq9Q3BizvSWw89Tf2sDjg9zR6UPyN5S7Wj4pAIN2pjUdE=w2048 2x">
+			  <source media="(min-width: 768px)" srcset="https://lh3.googleusercontent.com/JJw3ljpi7nLMy5iWzutay0WSg2FU2aUv_Ly7HreYnVLDhkjStqn2sx7g_cErTHyIJhS-lGVn5YPeWPShFVQ9jib3fsEtvbDq9Q3BizvSWw89Tf2sDjg9zR6UPyN5S7Wj4pAIN2pjUdE=w768, https://lh3.googleusercontent.com/JJw3ljpi7nLMy5iWzutay0WSg2FU2aUv_Ly7HreYnVLDhkjStqn2sx7g_cErTHyIJhS-lGVn5YPeWPShFVQ9jib3fsEtvbDq9Q3BizvSWw89Tf2sDjg9zR6UPyN5S7Wj4pAIN2pjUdE=w1536 2x">
+			  <source media="(min-width: 640px)" srcset="https://lh3.googleusercontent.com/6ETCIGeNQnhZx_G3D3AfWXvgwDGwcE49oXyU_uo0KsYjMMIywO__NP8uoKV6rQYuL3Fj4ZXGSsgU2BBE2YNKSQ3d-LLSJ5iJtbiJQwws2Ib2cT41ENQVjWYEAAF4AZbQOk5w2PArh1o=w640, https://lh3.googleusercontent.com/6ETCIGeNQnhZx_G3D3AfWXvgwDGwcE49oXyU_uo0KsYjMMIywO__NP8uoKV6rQYuL3Fj4ZXGSsgU2BBE2YNKSQ3d-LLSJ5iJtbiJQwws2Ib2cT41ENQVjWYEAAF4AZbQOk5w2PArh1o=w1280 2x"> 
+			  <source media="(min-width: 450px)" srcset="https://lh3.googleusercontent.com/6ETCIGeNQnhZx_G3D3AfWXvgwDGwcE49oXyU_uo0KsYjMMIywO__NP8uoKV6rQYuL3Fj4ZXGSsgU2BBE2YNKSQ3d-LLSJ5iJtbiJQwws2Ib2cT41ENQVjWYEAAF4AZbQOk5w2PArh1o=w450, https://lh3.googleusercontent.com/6ETCIGeNQnhZx_G3D3AfWXvgwDGwcE49oXyU_uo0KsYjMMIywO__NP8uoKV6rQYuL3Fj4ZXGSsgU2BBE2YNKSQ3d-LLSJ5iJtbiJQwws2Ib2cT41ENQVjWYEAAF4AZbQOk5w2PArh1o=w900 2x">
+			  <source media="(max-width: 449px)" srcset="https://lh3.googleusercontent.com/6ETCIGeNQnhZx_G3D3AfWXvgwDGwcE49oXyU_uo0KsYjMMIywO__NP8uoKV6rQYuL3Fj4ZXGSsgU2BBE2YNKSQ3d-LLSJ5iJtbiJQwws2Ib2cT41ENQVjWYEAAF4AZbQOk5w2PArh1o=w450, https://lh3.googleusercontent.com/6ETCIGeNQnhZx_G3D3AfWXvgwDGwcE49oXyU_uo0KsYjMMIywO__NP8uoKV6rQYuL3Fj4ZXGSsgU2BBE2YNKSQ3d-LLSJ5iJtbiJQwws2Ib2cT41ENQVjWYEAAF4AZbQOk5w2PArh1o=w900 2x">
+			  -->
+			  <img src="https://lh3.googleusercontent.com/x-oYkK8cmO7if6Ys0WY2wBFaWFAovuA3d8tE3BYL5PEJiKAtPo6FNMFuKs3XI2vvNAV7zv__w3bCzBIDbMyVgjaMraAAqnpHNQyvVZJ09rAWumyUIZG434j9CS4uKrgx4VbSz1NbNak=w1600">
+			</picture>			
+			
+		  </section>
+		</main>
+	  </body>
+	</html>
