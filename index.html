@@ -30,7 +30,16 @@
     </style>
     <script>
 	var elem = document.documentElement;
+	var is_fullscreen=false;
+	function toggleFullscreen(){
+		if(is_fullscreen){
+			closeFullscreen();				
+		}else{
+			openFullscreen();				
+		}			
+	}
 	function openFullscreen() {
+	  is_fullscreen = true;
 	  document.getElementById('fullscreen-btn').style.background = "#d3d3d366";
 	  if (elem.requestFullscreen) {
 		elem.requestFullscreen();
@@ -44,6 +53,8 @@
 	}
 
 	function closeFullscreen() {
+	   is_fullscreen = false;
+	   document.getElementById('fullscreen-btn').style.background = "initial";
 	  if (document.exitFullscreen) {
 		document.exitFullscreen();
 	  } else if (document.mozCancelFullScreen) {
@@ -56,13 +67,13 @@
 	}
 	document.addEventListener("DOMContentLoaded", function() {
 	   console.log('Your document is ready!');
-	});			
+	});
   </script>
   </head>
   <body>    
     <main>
       <section>
-	<a href="javascript:;" onclick="openFullscreen()" style="float: center:"><img  id="fullscreen-btn" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ic_fullscreen_48px.svg"></a>
+	<a href="javascript:;" onclick="toggleFullscreen()" style="float: center:"><img  id="fullscreen-btn" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ic_fullscreen_48px.svg"></a>
         <a href="mailto:janis.rullis.photo@gmail.com" style="float: center:"><img src="email.png"></a>
 		
         <picture>          
@@ -74,7 +85,7 @@
 		  <source media="(min-width: 640px)" srcset="https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w640, https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w1280 2x"> 
 		  <source media="(min-width: 450px)" srcset="https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w450, https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w900 2x">
 		  <source media="(max-width: 449px)" srcset="https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w450, https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w900 2x">
-		  <img src="https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w1600">
+		  <img alt="Image ALT descr" title="Image title" src="https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w1600">
         </picture>
 		
 		<picture>          
@@ -86,7 +97,7 @@
 		  <source media="(min-width: 640px)" srcset="https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w640, https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w1280 2x"> 
 		  <source media="(min-width: 450px)" srcset="https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w450, https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w900 2x">
 		  <source media="(max-width: 449px)" srcset="https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w450, https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w900 2x">
-		  <img src="https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w1600">
+		  <img alt="Image ALT descr" title="Image title" src="https://lh3.googleusercontent.com/XlH6wo2PzrAEqmplYrZwV0fI-2TafTT6BRwZhKDfZSHd_zT7HIdPyPWd3Xuqhn1QQADuTJ32QFmcgYiTOEU0sC4Bvf-VyTIiq-DxxEaxIeWDYyUK_VjaW8-zrMGBvekDZT77lpduYQ=w1600">
         </picture>
         
       </section>
