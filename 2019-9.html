@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>	  
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="theme-color" content="#1d2523"/>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="manifest" href="manifest.json" />
+	<meta name="viewport" content="width=device-width">
+	<title>ruu.lv</title>
+	<style>      
+	  body {
+		width: 100%;
+		max-width: 1920px;
+		margin: 0 auto;		
+	  }      
+	  img {
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+	  }
+	  main{
+		background: lightgray;
+		min-height: 1400px;
+	  }
+	</style>		
+	<script>
+		var elem = document.documentElement;
+		var is_fullscreen=false;
+		function toggleFullscreen(){
+			if(is_fullscreen){
+				closeFullscreen();				
+			}else{
+				openFullscreen();				
+			}			
+		}
+		function openFullscreen() {
+		  is_fullscreen = true;
+		  document.getElementById('fullscreen-btn').style.background = "#d3d3d366";
+		  if (elem.requestFullscreen) {
+			elem.requestFullscreen();
+		  } else if (elem.mozRequestFullScreen) { /* Firefox */
+			elem.mozRequestFullScreen();
+		  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+			elem.webkitRequestFullscreen();
+		  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+			elem.msRequestFullscreen();
+		  }
+		}
+
+		function closeFullscreen() {
+		   is_fullscreen = false;
+		   document.getElementById('fullscreen-btn').style.background = "initial";
+		  if (document.exitFullscreen) {
+			document.exitFullscreen();
+		  } else if (document.mozCancelFullScreen) {
+			document.mozCancelFullScreen();
+		  } else if (document.webkitExitFullscreen) {
+			document.webkitExitFullscreen();
+		  } else if (document.msExitFullscreen) {
+			document.msExitFullscreen();
+		  }
+		}
+		document.addEventListener("DOMContentLoaded", function() {
+		   console.log('Your document is ready!');
+		});			
+	</script>
+  </head>
+  <body>
+	<header>		
+	  <a href="javascript:;" onclick="toggleFullscreen()" style="float: center:"><img  id="fullscreen-btn" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ic_fullscreen_48px.svg"></a>
+	  <a href="mailto:janis.rullis.photo@gmail.com" style="float: center:"><img src="ui/img/email.png"></a>
+	</header>
+	<main>
+	  <section>
+		<!--
+		## To add a new image COPY this and FILL:
+		* DRIVE_LINK - https://drive.google.com/uc?export=view&id=ID
+		* Replace /open?id with /uc?export=view&id
+		* 459px may need the roated version.
+		* DESCR
+		* FILENAME
+
+		FILENAME			
+		<picture>          
+		  <source type="image/webp" media="(min-width: 1610px)" srcset="DRIVELINK1920, DRIVELINK3840 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" srcset="DRIVELINK1600, DRIVELINK3200 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" srcset="DRIVELINK1366, DRIVELINK2732 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" srcset="DRIVELINK1024, DRIVELINK2048 2x">
+		  <source type="image/webp" media="(min-width: 460px)" srcset="DRIVELINK768, DRIVELINK1536 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" srcset="DRIVELINK450, DRIVELINK900 2x">
+
+		  <img  alt="DESCR" title="DESCR" src="DRIVELINK1600">
+		</picture>
+
+		-->
+		
+
+<!-- 20190930-Dita-5-win-by-Janis-Rullis-2.jpg -->
+		<picture>
+		   <source type="image/webp" media="(min-width: 1610px)" srcset="https://drive.google.com/uc?export=view&id=1lGK_WEMfaaKlNQe5hEKwGFz1AsdFTez0, https://drive.google.com/uc?export=view&id=1cq4rhHTNKUGYWbaO-tzTteYv8I1-1mzO 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" srcset="https://drive.google.com/uc?export=view&id=1KW47XTrrU1Aq0YpkSTnrIefYTdo7Z6Uv, https://drive.google.com/uc?export=view&id=1onz2WKqKUWwkYHIhzy7nHXgpfS9sR0JA 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" srcset="https://drive.google.com/uc?export=view&id=1kOrSiAvdH4NzH_Fi7R8RRRIz6Ui-vsud, https://drive.google.com/uc?export=view&id=1PYgeMRFB6C7O-zvCrsAhhfsFxmu4Sgop 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" srcset="https://drive.google.com/uc?export=view&id=1wBuFGjQRLw5VItfFI85slKtIOWrLJ0Lk, https://drive.google.com/uc?export=view&id=1_2CDoEq7WyY27s8EihV-yG2pwlO5A4uB 2x">
+		  <source type="image/webp" media="(min-width: 460px)" srcset="https://drive.google.com/uc?export=view&id=1is1jahHK_E7iV69ELXNm8NLKFJJUZJ2C, https://drive.google.com/uc?export=view&id=1FTcP6lUALNz4AhoIUu7KT3I0jxp2Xtpi 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" srcset="https://drive.google.com/uc?export=view&id=1GbB2hzDXcByVSTa8-7hIscMFtYgMQPhj, https://drive.google.com/uc?export=view&id=1B4p1g1e6jcBruHfOQFEflqDLJSsyN9Xx 2x">
+
+		  <img  alt="Dita | © 2019 Janis Rullis | ruu.lv" title="Dita | © 2019 Janis Rullis | ruu.lv" src="https://drive.google.com/uc?export=view&id=1KW47XTrrU1Aq0YpkSTnrIefYTdo7Z6Uv">
+		</picture>
+
+		<!-- 20190930-Dita-6-feet-by-Janis-Rullis-3.jpg -->			
+		<picture>       
+		  <source type="image/webp" media="(min-width: 1610px)" srcset="https://drive.google.com/uc?export=view&id=1sXA9Wm783yb4g3HE04pvh9H4bf_XPKZa, https://drive.google.com/uc?export=view&id=1l6H5pOkEplH1wFRiyzcILA-RWUyOsrXD 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" srcset="https://drive.google.com/uc?export=view&id=1oO4cUzPZw6C0lshunZ5dDYM4TW3P5GpH, https://drive.google.com/uc?export=view&id=15SbHq0xpIoo-zd8qlpIYtcV9AwznFZ3k 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" srcset="https://drive.google.com/uc?export=view&id=1fAAGvbmEiWiWSBj2PL4q7UG8DrRc6s0r, https://drive.google.com/uc?export=view&id=1J2h_YsoUfbWQQFjQh4e1bAwH38aFzeKg 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" srcset="https://drive.google.com/uc?export=view&id=1msRRczvigEGtIjmEhpicQBHIvh3_rxWG, https://drive.google.com/uc?export=view&id=1VnpSRwfPIejE7-PWfLZKIVaYsVaan2H4 2x">
+		  <source type="image/webp" media="(min-width: 460px)" srcset="https://drive.google.com/uc?export=view&id=16rMl7sp7tuDJBfQr2Bd6zM4KCyEd4rTZ, https://drive.google.com/uc?export=view&id=1HRjK2HPgtoGO1ru_re4UtlsitEaaq3CD 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" srcset="https://drive.google.com/uc?export=view&id=1c49ige2Qhfv9alJGb-sZkAlyjJJ7xIrB, https://drive.google.com/uc?export=view&id=1u_D6BTwSjz64GrvolLW-Ey5i1b4OXbus 2x">
+
+		  <img  alt="Dita | © 2019 Janis Rullis | ruu.lv" title="Dita | © 2019 Janis Rullis | ruu.lv" src="https://drive.google.com/uc?export=view&id=1oO4cUzPZw6C0lshunZ5dDYM4TW3P5GpH">
+		</picture>
+
+<!-- 20190930-Dita-3-projections-by-Janis-Rullis-1.jpg -->
+		<picture>
+		  <source type="image/webp" media="(min-width: 1610px)" srcset="https://drive.google.com/uc?export=view&id=1HmTRPuyHwcuJcfk4BKw70slv9OAIt2Jl, https://drive.google.com/uc?export=view&id=1j8D7EPc06wYYq0vQCHut7A_yd_LEXUQu 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" srcset="https://drive.google.com/uc?export=view&id=1bHvv7cruNw2rBnlYm41KXNXM5RAkiG29, https://drive.google.com/uc?export=view&id=18aUMpZkfm5ecpQtwU6LNsC0f4DU52fpu 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" srcset="https://drive.google.com/uc?export=view&id=1dSl38-Ghpjqkz93sqcsFp8yyJec15j9P, https://drive.google.com/uc?export=view&id=1Z7L9YEvlXgkc68Ywbw5mEmiSpfIIU7uj 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" srcset="https://drive.google.com/uc?export=view&id=1RlVMPHV_RaNFirUdI5e0x85ZUzREeDci, https://drive.google.com/uc?export=view&id=1egD0RNUQmQqMzUnXQdDc3lLh4H3H6maK 2x">
+		  <source type="image/webp" media="(min-width: 460px)" srcset="https://drive.google.com/uc?export=view&id=1DAS3u4gDZTwYQSLmQQUb1CecQRwEC4B_, https://drive.google.com/uc?export=view&id=1iRFCJ7stfqWqwynzzeE-A74F_BHuHW1S 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" srcset="https://drive.google.com/uc?export=view&id=1k5srpKXjFkVammx9K0G87BTwU_sRaH1h, https://drive.google.com/uc?export=view&id=1rpPuhDhslDOS92Ci-pWet3FG98m3x3y1 2x">
+
+		  <img  alt="Dita | © 2019 Janis Rullis | ruu.lv" title="Dita | © 2019 Janis Rullis | ruu.lv" src="https://drive.google.com/uc?export=view&id=1bHvv7cruNw2rBnlYm41KXNXM5RAkiG2">
+		</picture>
+
+<!-- 20190914-Lode-0001-Clay-by-Janis-Rullis-3840x.webp -->
+	<picture>          
+		  <source type="image/webp" media="(min-width: 1610px)" srcset="https://drive.google.com/uc?export=view&id=1MXp45c3TU5uMfllirbqlUCA7TO1EESX8, https://drive.google.com/uc?export=view&id=17Mlof6jpIqPNrEEJg0s65pW2rhMVmOUl 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" srcset="https://drive.google.com/uc?export=view&id=1OhSsA53F2i5UZB1UgzonG0poV2lqUZoL, https://drive.google.com/uc?export=view&id=1JcV14AEXhVsJTBXbiMXVhdjfJoRVtqG0 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" srcset="https://drive.google.com/uc?export=view&id=1mxZwG_lhfdhHdZtMUaP6kztnJHv-iKu4, https://drive.google.com/uc?export=view&id=10-8mBRnDrXrPU1RSrDuYt_NRT9y26M_P 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" srcset="https://drive.google.com/uc?export=view&id=1e9K-lVvYESCn-g5thoNgwjA0I0EyuD-_, https://drive.google.com/uc?export=view&id=1Z9cEdSSghDln-B1kzMOIJpfMSNgpX2HJ 2x">
+		  <source type="image/webp" media="(min-width: 460px)" srcset="https://drive.google.com/uc?export=view&id=1TSS44TQ2WfhBaeMYKW0CM_FJ53VoCFhu, https://drive.google.com/uc?export=view&id=1Be9TfJF23PtjclfFIx15ZyYkmJVXi_ho 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" srcset="https://drive.google.com/uc?export=view&id=1PF7yaxLd-HKF5y2SAz0pBl-VoSAMjudF, https://drive.google.com/uc?export=view&id=1JLIvdYwq8h1Z8OXAVWLNqOLGAbVoengG 2x">
+
+		  <img  alt="Lode | © 2019 Janis Rullis | ruu.lv" title="Lode | © 2019 Janis Rullis | ruu.lv" src="https://drive.google.com/uc?export=view&id=1OhSsA53F2i5UZB1UgzonG0poV2lqUZoL">
+		</picture>
+
+	  </section>
+	</main>
+	<footer>    
+	    <a href="2019-8.html" style="float: center;"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Ic_arrow_forward_48px.svg"></a>
+	</footer>
+
+	<!-- 
+	  ## Useful resourcess:		  
+	  * https://freshman.tech/responsive-images/
+	  * https://bitsofco.de/the-srcset-and-sizes-attributes/
+	  * https://developers.google.com/web/fundamentals/design-and-ux/responsive/images
+	  * https://css-tricks.com/planning-for-responsive-images/
+	  * https://css-tricks.com/responsive-images-css/
+	  * https://internetingishard.com/html-and-css/responsive-images/
+	  * https://medium.com/hceverything/applying-srcset-choosing-the-right-sizes-for-responsive-images-at-different-breakpoints-a0433450a4a3
+	  * https://www.freecodecamp.org/news/time-saving-css-techniques-to-create-responsive-images-ebb1e84f90d5/
+	  * https://www.freecodecamp.org/news/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433/
+	  * https://stitcher.io/blog/responsive-images-done-right
+	  * https://alligator.io/html/picture-element/
+	  * https://www.html5rocks.com/en/tutorials/responsive/picture-element/
+
+	  ### Icons
+	  *  https://upload.wikimedia.org/wikipedia/commons/4/4b/Bw-fullscreen.svg
+	  -->  
+  </body>
+</html>
