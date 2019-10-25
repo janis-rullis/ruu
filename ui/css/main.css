@@ -1,0 +1,28 @@
+body {
+width: 100%;
+max-width: 1920px;
+margin: 0 auto;		
+}      
+img {
+display: block;
+margin: 0 auto;
+max-width: 100%;		
+}
+main{
+background: lightgray;
+min-height: 1400px;
+}
+picture img{
+min-height: 100px;	 
+}
+.lazy{
+ visibility: hidden;
+/* display: none; */
+}
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+img[data-src] {
+  opacity: 0;
+}
