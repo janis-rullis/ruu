@@ -22,8 +22,13 @@
 		background: lightgray;
 		min-height: 1400px;
 	  }
+	  .lazy{
+		display: none;	  
+	  }
 	</style>		
 	<script>
+		// Note: Using legacy notation like `var` (and not `let`) for compatibility reasons.
+		
 		var elem = document.documentElement;
 		var is_fullscreen=false;
 		function toggleFullscreen(){
@@ -59,10 +64,47 @@
 		  } else if (document.msExitFullscreen) {
 			document.msExitFullscreen();
 		  }
+		}		
+		
+		// Activate an image by setting it's target.
+		function loadLazyPic(lazyPic){		
+		
+			// Define used variables.		   
+		   var sources, source, img;
+		
+			// In `source` element.
+			sources = lazyPic.querySelectorAll("source")
+			var srcCnt = sources.length;			
+			for(var j = 0; j < srcCnt; j++){
+				source = sources[j];				
+				source.srcset = source.dataset.srcset;
+			}		
+			
+			// In `img` element.
+			img = lazyPic.querySelector("img");
+			img.src = img.dataset.src;	
+			
+			// Mark the image as processed;				
+			lazyPic.classList.remove("lazy");			
 		}
-		document.addEventListener("DOMContentLoaded", function() {
-		   console.log('Your document is ready!');
-		});			
+		
+		// Activate images by setting their targets.
+		function loadLazyPics(){
+		   		   
+			// Find all images than needs to be loaded with a delay.
+		   var lazyPics = document.querySelectorAll(".lazy")
+		   
+			for(var i = 0; i < lazyPics.length; i++){	
+			
+				// Execture this every 0,5s. Note, the `* i`, otherwise everything is executed exactly after 0.5s.
+				setTimeout(loadLazyPic, 500 * 	i, lazyPics[i]);
+			}
+		}
+		
+		document.addEventListener("DOMContentLoaded", function() {		   
+		   loadLazyPics();
+		});
+		
 	</script>
   </head>
   <body>
@@ -82,14 +124,14 @@
 
 		FILENAME			
 		<picture>          
-		  <source type="image/webp" media="(min-width: 1610px)" srcset="DRIVELINK1920, DRIVELINK3840 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" srcset="DRIVELINK1600, DRIVELINK3200 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" srcset="DRIVELINK1366, DRIVELINK2732 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" srcset="DRIVELINK1024, DRIVELINK2048 2x">
-		  <source type="image/webp" media="(min-width: 460px)" srcset="DRIVELINK768, DRIVELINK1536 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" srcset="DRIVELINK450, DRIVELINK900 2x">
+		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="DRIVELINK1920, DRIVELINK3840 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="DRIVELINK1600, DRIVELINK3200 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="DRIVELINK1366, DRIVELINK2732 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" data-srcset="DRIVELINK1024, DRIVELINK2048 2x">
+		  <source type="image/webp" media="(min-width: 460px)" data-srcset="DRIVELINK768, DRIVELINK1536 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" data-srcset="DRIVELINK450, DRIVELINK900 2x">
 
-		  <img  alt="DESCR" title="DESCR" src="DRIVELINK1600">
+		  <img  alt="DESCR" title="DESCR" data-src="DRIVELINK1600">
 		</picture>
 
 		-->
@@ -109,67 +151,67 @@
 
 
 		<!-- 20190921-Sigulda-0002-Alise-by-Janis-Rullis-3840x -->
-		<picture>          
-		  <source type="image/webp" media="(min-width: 1610px)" srcset="https://drive.google.com/uc?export=view&id=1oSJqxbQK02VDfPoq7qXXkE7z5uLKhSPh, https://drive.google.com/uc?export=view&id=1FjO8VH_plvSFC9L18Rfhc6FaHr52wxhe 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" srcset="https://drive.google.com/uc?export=view&id=1674trtzP-TV_4x0KhQGoy2-XiMl7xSLM, https://drive.google.com/uc?export=view&id=1HU2uk6pb4wpdlyxtgfbYWWJggfpDsqAH 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" srcset="https://drive.google.com/uc?export=view&id=10wY7unQtdL-ZHNlS2xmOh8yHcivkapqL, https://drive.google.com/uc?export=view&id=1mRrZMAsoiNYJVf_b6gRced5v9FHtfIgh 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" srcset="https://drive.google.com/uc?export=view&id=1vZuVPqIIgagfFDJI8TjBU8JcTz_Pow0i, https://drive.google.com/uc?export=view&id=1cK_F5Ib9BBYaUg6TKATLUb30W8mxDohT 2x">
-		  <source type="image/webp" media="(min-width: 460px)" srcset="https://drive.google.com/uc?export=view&id=1kV1td3m-Ft2slcmQB8N_EdSAnQseWLXp, https://drive.google.com/uc?export=view&id=16eZVqlTcrc86ANo5Mm_Y6H67zNp2rWJe 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" srcset="https://drive.google.com/uc?export=view&id=18YoV1qyFGhnkWFuzlXjiZ6_69GCk2bM8, https://drive.google.com/uc?export=view&id=1R-GX9Sgl0hs0iOGhQdjiHrKtVyO5eQeY 2x">
+		<picture class="lazy">
+		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://drive.google.com/uc?export=view&id=1oSJqxbQK02VDfPoq7qXXkE7z5uLKhSPh, https://drive.google.com/uc?export=view&id=1FjO8VH_plvSFC9L18Rfhc6FaHr52wxhe 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://drive.google.com/uc?export=view&id=1674trtzP-TV_4x0KhQGoy2-XiMl7xSLM, https://drive.google.com/uc?export=view&id=1HU2uk6pb4wpdlyxtgfbYWWJggfpDsqAH 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://drive.google.com/uc?export=view&id=10wY7unQtdL-ZHNlS2xmOh8yHcivkapqL, https://drive.google.com/uc?export=view&id=1mRrZMAsoiNYJVf_b6gRced5v9FHtfIgh 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://drive.google.com/uc?export=view&id=1vZuVPqIIgagfFDJI8TjBU8JcTz_Pow0i, https://drive.google.com/uc?export=view&id=1cK_F5Ib9BBYaUg6TKATLUb30W8mxDohT 2x">
+		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://drive.google.com/uc?export=view&id=1kV1td3m-Ft2slcmQB8N_EdSAnQseWLXp, https://drive.google.com/uc?export=view&id=16eZVqlTcrc86ANo5Mm_Y6H67zNp2rWJe 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://drive.google.com/uc?export=view&id=18YoV1qyFGhnkWFuzlXjiZ6_69GCk2bM8, https://drive.google.com/uc?export=view&id=1R-GX9Sgl0hs0iOGhQdjiHrKtVyO5eQeY 2x">
 
-		 <img  alt="Sigulda | © 2019 Janis Rullis | ruu.lv" title="Sigulda | © 2019 Janis Rullis | ruu.lv" src="https://drive.google.com/uc?export=view&id=1674trtzP-TV_4x0KhQGoy2-XiMl7xSLM">
+		 <img  alt="Sigulda | © 2019 Janis Rullis | ruu.lv" title="Sigulda | © 2019 Janis Rullis | ruu.lv" data-src="https://drive.google.com/uc?export=view&id=1674trtzP-TV_4x0KhQGoy2-XiMl7xSLM">
 		</picture>
 
 		<!-- 20190921-Sigulda-0003-Atis-by-Janis-Rullis-3840x.webp -->
-		<picture>          
-		  <source type="image/webp" media="(min-width: 1610px)" srcset="https://drive.google.com/uc?export=view&id=1UTLoyNYcrIRVvVAZ9au8fGoRcaK9miJg, https://drive.google.com/uc?export=view&id=1eh26ejVCdNgdGiDVzOy0XQnUO0Lkvc6C 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" srcset="https://drive.google.com/uc?export=view&id=1Qd0cofLfd3azUlZNRVOo046jlRh9K3un, https://drive.google.com/uc?export=view&id=1C-LpgRRUFNOHnHnrowOesqcNtHFgmhzf 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" srcset="https://drive.google.com/uc?export=view&id=1g6jmZ2kE7s1zXclH-i0W9dpPOom1F2kz, https://drive.google.com/uc?export=view&id=1Yk2RyVNpYi7rJ53DufcaqD6ASewEh5AX 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" srcset="https://drive.google.com/uc?export=view&id=1WzJrFSZlyb0MJfetkpA-om-uXhphziS0, https://drive.google.com/uc?export=view&id=1fo5fSHrSR3u9fmasp9S_4lQJO2qJ2JIt 2x">
-		  <source type="image/webp" media="(min-width: 460px)" srcset="https://drive.google.com/uc?export=view&id=1UKMVLRZiFZiIVIYemj67uhYe6XHO4qb5, https://drive.google.com/uc?export=view&id=14suE6VHmhMfQn7jIxGSyRrL4-9sySo3v 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" srcset="https://drive.google.com/uc?export=view&id=1aB8MPIrINUWaNsvBGAkowMO9qFZlt-Q0, https://drive.google.com/uc?export=view&id=1kbL7bS9hweeltY4Ezgm5wW_pTZuAB78t 2x">
+		<picture class="lazy" id="a2">
+		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://drive.google.com/uc?export=view&id=1UTLoyNYcrIRVvVAZ9au8fGoRcaK9miJg, https://drive.google.com/uc?export=view&id=1eh26ejVCdNgdGiDVzOy0XQnUO0Lkvc6C 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://drive.google.com/uc?export=view&id=1Qd0cofLfd3azUlZNRVOo046jlRh9K3un, https://drive.google.com/uc?export=view&id=1C-LpgRRUFNOHnHnrowOesqcNtHFgmhzf 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://drive.google.com/uc?export=view&id=1g6jmZ2kE7s1zXclH-i0W9dpPOom1F2kz, https://drive.google.com/uc?export=view&id=1Yk2RyVNpYi7rJ53DufcaqD6ASewEh5AX 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://drive.google.com/uc?export=view&id=1WzJrFSZlyb0MJfetkpA-om-uXhphziS0, https://drive.google.com/uc?export=view&id=1fo5fSHrSR3u9fmasp9S_4lQJO2qJ2JIt 2x">
+		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://drive.google.com/uc?export=view&id=1UKMVLRZiFZiIVIYemj67uhYe6XHO4qb5, https://drive.google.com/uc?export=view&id=14suE6VHmhMfQn7jIxGSyRrL4-9sySo3v 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://drive.google.com/uc?export=view&id=1aB8MPIrINUWaNsvBGAkowMO9qFZlt-Q0, https://drive.google.com/uc?export=view&id=1kbL7bS9hweeltY4Ezgm5wW_pTZuAB78t 2x">
 
-		  <img  alt="Sigulda | © 2019 Janis Rullis | ruu.lv" title="Sigulda | © 2019 Janis Rullis | ruu.lv" src="https://drive.google.com/uc?export=view&id=1Qd0cofLfd3azUlZNRVOo046jlRh9K3un">
+		  <img  alt="Sigulda | © 2019 Janis Rullis | ruu.lv" title="Sigulda | © 2019 Janis Rullis | ruu.lv" data-src="https://drive.google.com/uc?export=view&id=1Qd0cofLfd3azUlZNRVOo046jlRh9K3un">
 		</picture>		  
 		  
 <!-- 20190820-Kurzeme-Klaipeda-0002-Pavilosta-by-Janis-Rullis-3840x.webp -->
-		<picture>          
-		  <source type="image/webp" media="(min-width: 1610px)" srcset="https://drive.google.com/uc?export=view&id=1aoOKbIZU6LYnot7r2vAwwwGHD0oU4RHJ, https://drive.google.com/uc?export=view&id=1KHPI8tivoyaPZqbjLKDSNr2DaBucNOzn 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" srcset="https://drive.google.com/uc?export=view&id=1YIAettI7QqjtBoq9E3JKGa9LvNHQNZCB, https://drive.google.com/uc?export=view&id=1dKLjl_bCmQj_GpC188XyRx459jk0LxyB 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" srcset="https://drive.google.com/uc?export=view&id=1LAVpmCUnUHMGy0i1oGRAlt9453GKZWJp, https://drive.google.com/uc?export=view&id=1SPlX0ROPtz2rswK2fFheSzKyClF2aemt 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" srcset="https://drive.google.com/uc?export=view&id=108PPVk-6cCgDtt3WbWtmpQVdu3sBxV96, https://drive.google.com/uc?export=view&id=1rjXUAlgxu-ITzhW6W4BbmNuM5pTivbAW 2x">
-		  <source type="image/webp" media="(min-width: 460px)" srcset="https://drive.google.com/uc?export=view&id=1qgNodJbQUdxoQAh0CZ6LQvlfe4H-Hi7_, https://drive.google.com/uc?export=view&id=129ixJV5BgbYTKXYmBH72AIopGCZ7qpQI 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" srcset="https://drive.google.com/uc?export=view&id=1UWre0BLJeUl5ikqG23uwA37WaXqb-HVJ, https://drive.google.com/uc?export=view&id=1eNtib96AzH7G8AS2ZSCErRaxc1ox-9jf 2x">
+		<picture class="lazy">
+		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://drive.google.com/uc?export=view&id=1aoOKbIZU6LYnot7r2vAwwwGHD0oU4RHJ, https://drive.google.com/uc?export=view&id=1KHPI8tivoyaPZqbjLKDSNr2DaBucNOzn 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://drive.google.com/uc?export=view&id=1YIAettI7QqjtBoq9E3JKGa9LvNHQNZCB, https://drive.google.com/uc?export=view&id=1dKLjl_bCmQj_GpC188XyRx459jk0LxyB 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://drive.google.com/uc?export=view&id=1LAVpmCUnUHMGy0i1oGRAlt9453GKZWJp, https://drive.google.com/uc?export=view&id=1SPlX0ROPtz2rswK2fFheSzKyClF2aemt 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://drive.google.com/uc?export=view&id=108PPVk-6cCgDtt3WbWtmpQVdu3sBxV96, https://drive.google.com/uc?export=view&id=1rjXUAlgxu-ITzhW6W4BbmNuM5pTivbAW 2x">
+		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://drive.google.com/uc?export=view&id=1qgNodJbQUdxoQAh0CZ6LQvlfe4H-Hi7_, https://drive.google.com/uc?export=view&id=129ixJV5BgbYTKXYmBH72AIopGCZ7qpQI 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://drive.google.com/uc?export=view&id=1UWre0BLJeUl5ikqG23uwA37WaXqb-HVJ, https://drive.google.com/uc?export=view&id=1eNtib96AzH7G8AS2ZSCErRaxc1ox-9jf 2x">
 
-		  <img  alt="Kurzeme-Klaipeda | © 2019 Janis Rullis | ruu.lv" title="Kurzeme-Klaipeda | © 2019 Janis Rullis | ruu.lv" src="https://drive.google.com/uc?export=view&id=1YIAettI7QqjtBoq9E3JKGa9LvNHQNZCB">
+		  <img  alt="Kurzeme-Klaipeda | © 2019 Janis Rullis | ruu.lv" title="Kurzeme-Klaipeda | © 2019 Janis Rullis | ruu.lv" data-src="https://drive.google.com/uc?export=view&id=1YIAettI7QqjtBoq9E3JKGa9LvNHQNZCB">
 		</picture>
 
 		<!-- 20190820-Kurzeme-Klaipeda-0001-City-by-Janis-Rullis-3840x.webp -->
-		<picture>          
-		  <source type="image/webp" media="(min-width: 1610px)" srcset="https://drive.google.com/uc?export=view&id=1Vy51-AdURF7zmqla4xlx68coTB_N_ikr, https://drive.google.com/uc?export=view&id=1bDxHQ6GL8oU-CmlLxxXrqotg63rXZd_V 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" srcset="https://drive.google.com/uc?export=view&id=1ogsEOGLrAdd7mcYa2t6ITT-Dp5NIHfgR, https://drive.google.com/uc?export=view&id=1fNK57jX6odpaO3sbhVfZXgD3txbX45Xh 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" srcset="https://drive.google.com/uc?export=view&id=1_xNGa0PQBFOOg9nanaAvEGcybjAxgF_C, https://drive.google.com/uc?export=view&id=15036Ta9s0gJk2qLk4cqcHUUKE3dCZJMF 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" srcset="https://drive.google.com/uc?export=view&id=1V0N0C8-MZOiGNZ8OhgM_44B_icY-08UT, https://drive.google.com/uc?export=view&id=1X6IygCwlIPLpk7cPccG4DDlXcBrTVcaw 2x">
-		  <source type="image/webp" media="(min-width: 460px)" srcset="https://drive.google.com/uc?export=view&id=1yqloxKnKCIhuc9OFrb92nvh0NphE5ggL, https://drive.google.com/uc?export=view&id=1Rh_xj8GoUbASHudezA1nJfi-Qsre2gRW 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" srcset="https://drive.google.com/uc?export=view&id=1r0HAv7O4ZqvdqoXXq05l0jAttMyLyWpU, https://drive.google.com/uc?export=view&id=1IOl3r5D6lw61VNBUPWpsv_Z_At4kNh7- 2x">
+		<picture class="lazy">
+		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://drive.google.com/uc?export=view&id=1Vy51-AdURF7zmqla4xlx68coTB_N_ikr, https://drive.google.com/uc?export=view&id=1bDxHQ6GL8oU-CmlLxxXrqotg63rXZd_V 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://drive.google.com/uc?export=view&id=1ogsEOGLrAdd7mcYa2t6ITT-Dp5NIHfgR, https://drive.google.com/uc?export=view&id=1fNK57jX6odpaO3sbhVfZXgD3txbX45Xh 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://drive.google.com/uc?export=view&id=1_xNGa0PQBFOOg9nanaAvEGcybjAxgF_C, https://drive.google.com/uc?export=view&id=15036Ta9s0gJk2qLk4cqcHUUKE3dCZJMF 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://drive.google.com/uc?export=view&id=1V0N0C8-MZOiGNZ8OhgM_44B_icY-08UT, https://drive.google.com/uc?export=view&id=1X6IygCwlIPLpk7cPccG4DDlXcBrTVcaw 2x">
+		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://drive.google.com/uc?export=view&id=1yqloxKnKCIhuc9OFrb92nvh0NphE5ggL, https://drive.google.com/uc?export=view&id=1Rh_xj8GoUbASHudezA1nJfi-Qsre2gRW 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://drive.google.com/uc?export=view&id=1r0HAv7O4ZqvdqoXXq05l0jAttMyLyWpU, https://drive.google.com/uc?export=view&id=1IOl3r5D6lw61VNBUPWpsv_Z_At4kNh7- 2x">
 
-		  <img  alt="Kurzeme-Klaipeda | © 2019 Janis Rullis | ruu.lv" title="Kurzeme-Klaipeda | © 2019 Janis Rullis | ruu.lv" src="https://drive.google.com/uc?export=view&id=1ogsEOGLrAdd7mcYa2t6ITT-Dp5NIHfgR">
+		  <img  alt="Kurzeme-Klaipeda | © 2019 Janis Rullis | ruu.lv" title="Kurzeme-Klaipeda | © 2019 Janis Rullis | ruu.lv" data-src="https://drive.google.com/uc?export=view&id=1ogsEOGLrAdd7mcYa2t6ITT-Dp5NIHfgR">
 		</picture>
 
 <!-- 20190616-Belarus-Ukraine-0001-Sinevir-by-Janis-Rullis-3840x -->
-		<picture>          
-		  <source type="image/webp" media="(min-width: 1610px)" srcset="https://drive.google.com/uc?export=view&id=1zC2-oI9klL2-qXSetBP5neK-rpKhwIrd, https://drive.google.com/uc?export=view&id=1_bm5SkxJ-Q9izNdRnpEg5WEdXWMQujZI 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" srcset="https://drive.google.com/uc?export=view&id=1_dDUxQhu0BCWn7YRsgI7XaiCyR-O4JAc, https://drive.google.com/uc?export=view&id=1KQicxhZa2b1RRR04LS1vXdXwtTyRN-Tv 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" srcset="https://drive.google.com/uc?export=view&id=1AGPorn2K99_ucDcWBJXvy3_5NGheWeME, https://drive.google.com/uc?export=view&id=1r1v_waT9O3xp8pGokuZ5nZ77e9l6Tnr_ 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" srcset="https://drive.google.com/uc?export=view&id=1xHNbZnDkpAPf3kQ9Y2u1iui1ExXzdBal, https://drive.google.com/uc?export=view&id=1a3MPo39hL7nIo0O0kZN5JFD3MLL4RVWC 2x">
-		  <source type="image/webp" media="(min-width: 460px)" srcset="https://drive.google.com/uc?export=view&id=1BfYhHn2Bv8ILVQNR5mlpShAE6FGzMvya, https://drive.google.com/uc?export=view&id=12x00erasmNmD9ZbNkwpl44_3ohBF8jyt 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" srcset="https://drive.google.com/uc?export=view&id=1JsUxVH6IYNBnQG-XfXtn3UOY-NGD9UXz, https://drive.google.com/uc?export=view&id=1nW5MXjoczLTKeerG9h4ordGxZFufNcPw 2x">
+		<picture class="lazy">
+		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://drive.google.com/uc?export=view&id=1zC2-oI9klL2-qXSetBP5neK-rpKhwIrd, https://drive.google.com/uc?export=view&id=1_bm5SkxJ-Q9izNdRnpEg5WEdXWMQujZI 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://drive.google.com/uc?export=view&id=1_dDUxQhu0BCWn7YRsgI7XaiCyR-O4JAc, https://drive.google.com/uc?export=view&id=1KQicxhZa2b1RRR04LS1vXdXwtTyRN-Tv 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://drive.google.com/uc?export=view&id=1AGPorn2K99_ucDcWBJXvy3_5NGheWeME, https://drive.google.com/uc?export=view&id=1r1v_waT9O3xp8pGokuZ5nZ77e9l6Tnr_ 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://drive.google.com/uc?export=view&id=1xHNbZnDkpAPf3kQ9Y2u1iui1ExXzdBal, https://drive.google.com/uc?export=view&id=1a3MPo39hL7nIo0O0kZN5JFD3MLL4RVWC 2x">
+		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://drive.google.com/uc?export=view&id=1BfYhHn2Bv8ILVQNR5mlpShAE6FGzMvya, https://drive.google.com/uc?export=view&id=12x00erasmNmD9ZbNkwpl44_3ohBF8jyt 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://drive.google.com/uc?export=view&id=1JsUxVH6IYNBnQG-XfXtn3UOY-NGD9UXz, https://drive.google.com/uc?export=view&id=1nW5MXjoczLTKeerG9h4ordGxZFufNcPw 2x">
 
-		  <img  alt="Belarus-Ukraine | © 2019 Janis Rullis | ruu.lv" title="Belarus-Ukraine | © 2019 Janis Rullis | ruu.lv" src="https://drive.google.com/uc?export=view&id=1_dDUxQhu0BCWn7YRsgI7XaiCyR-O4JAc">
+		  <img  alt="Belarus-Ukraine | © 2019 Janis Rullis | ruu.lv" title="Belarus-Ukraine | © 2019 Janis Rullis | ruu.lv" data-src="https://drive.google.com/uc?export=view&id=1_dDUxQhu0BCWn7YRsgI7XaiCyR-O4JAc">
 		</picture>
 	</main>
 	<footer>    
-	    <a href="2019-9.html" style="float: center;"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Ic_arrow_forward_48px.svg"></a>
+	    <a href="2019-9.html" style="float: center;"><img data-src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Ic_arrow_forward_48px.svg"></a>
 	</footer>
 
 	<!-- 
