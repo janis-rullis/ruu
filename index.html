@@ -16,15 +16,19 @@
 	  img {
 		display: block;
 		margin: 0 auto;
-		max-width: 100%;
+		max-width: 100%;		
 	  }
 	  main{
 		background: lightgray;
 		min-height: 1400px;
 	  }
-	  .lazy{
-		display: none;	  
+	  picture img{
+		min-height: 500px;	 
 	  }
+	  .lazy{
+		 visibility: hidden;
+		/* display: none; */
+	  }	  
 	</style>		
 	<script>
 		// Note: Using legacy notation like `var` (and not `let`) for compatibility reasons.
@@ -96,7 +100,7 @@
 		   
 			for(var i = 0; i < lazyPics.length; i++){	
 			
-				// Execture this every 0,7s. Note, the `* i`, otherwise everything is executed exactly after 0.5s.
+				// Execture this every 0,7s. Note, the `* i`, otherwise everything is executed exactly after 0.7s.
 				setTimeout(loadLazyPic, 700 * 	i, lazyPics[i]);
 			}
 		}
@@ -138,7 +142,7 @@
 
 		
 <!-- 20190921-Sigulda-0001-Alise-by-Janis-Rullis-3840x.webp -->
-		<picture>          
+		<picture class="top-pic">   
 		  <source type="image/webp" media="(min-width: 1610px)" srcset="https://drive.google.com/uc?export=view&id=1ogsp8gIWcuDqpogFH5cwNNujdfL2eDa8, https://drive.google.com/uc?export=view&id=1DYfLvAkusRfT5I3_BRfVryJdcKc9K4Yu 2x">
 		  <source type="image/webp" media="(min-width: 1376px)" srcset="https://drive.google.com/uc?export=view&id=1Jj0a5wSJakHeO2wUsxKPfIYZrylllklH, https://drive.google.com/uc?export=view&id=11TYcAIihPgO3jp60d2jWNLqco7lxV8iB 2x">
 		  <source type="image/webp" media="(min-width: 1034px)" srcset="https://drive.google.com/uc?export=view&id=19AS00c-OQ92eoYpO8aRDyPA3pLKPnNe0, https://drive.google.com/uc?export=view&id=1E9TIa-2rHOo9AZLXPuMYb7Y0ThuK7M8_ 2x">			  
