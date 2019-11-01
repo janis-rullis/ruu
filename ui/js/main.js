@@ -73,7 +73,7 @@ function loadLazyPics(){
   for(var i = 0; i < lazyPics.length; i++){	
 
     // Execture this every 0,7s. Note, the `* i`, otherwise everything is executed exactly after 0.7s.
-    setTimeout(loadLazyPic, 700 * 	i, lazyPics[i]);
+    setTimeout(loadLazyPic, 300 * 	i, lazyPics[i]);
   }
 }
 
