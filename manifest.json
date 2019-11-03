@@ -8,13 +8,28 @@
 	"theme_color": "#150e1d",
 	"icons": [
 		{
-			"src": "ui/img/logo/144x.png",
-			"sizes": "144x144",
+			"src": "https://ruu.lv/ui/img/logo/favicon-32.webp",
+			"sizes": "32x32",
 			"type": "image/png"
 		},
 		{
-			"src": "ui/img/logo/192x.png",
+			"src": "https://ruu.lv/ui/img/logo/favicon-128.webp",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "https://ruu.lv/ui/img/logo/favicon-180.webp",
+			"sizes": "180x180",
+			"type": "image/png"
+		},
+		{
+			"src": "https://ruu.lv/ui/img/logo/favicon-192.webp",
 			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "https://ruu.lv/ui/img/logo/favicon-196.webp",
+			"sizes": "196x196",
 			"type": "image/png"
 		}
 	]
