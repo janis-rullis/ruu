@@ -308,7 +308,9 @@ img.placeholder{
 		}
 
 		document.addEventListener("DOMContentLoaded", function() {		   
-		  loadLazyPics();		   
+		  //loadLazyPics();		   
+			// Execture this every 0,7s. Note, the `* i`, otherwise everything is executed exactly after 0.7s.
+			setTimeout(loadLazyPic, 100 * 	i, lazyPics[i]);
 		});
 	</script>
   </body>
