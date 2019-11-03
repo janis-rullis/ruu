@@ -303,14 +303,14 @@ img.placeholder{
 
 		  for(var i = 0; i < lazyPics.length; i++){	
 		    
-		    loadLazyPic(lazyPics[i]);
+		    // loadLazyPic(lazyPics[i]);
+		    // Execture this every 0,7s. Note, the `* i`, otherwise everything is executed exactly after 0.7s.
+		    setTimeout(loadLazyPic, 100 * 	i, lazyPics[i]);
 		  }
 		}
 
 		document.addEventListener("DOMContentLoaded", function() {		   
-		  //loadLazyPics();		   
-			// Execture this every 0,7s. Note, the `* i`, otherwise everything is executed exactly after 0.7s.
-			setTimeout(loadLazyPic, 100 * 	i, lazyPics[i]);
+		  loadLazyPics();		   			
 		});
 	</script>
   </body>
