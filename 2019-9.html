@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>	  
-	<link rel="stylesheet" href="https://ruu.lv/ui/css/main.css"></link>
-	<script src="https://ruu.lv/ui/js/main.js"></script>	
+  <head> 
+	<style>
+		body {
+		width: 100%;
+		max-width: 1920px;
+		margin: 0 auto;		
+		}      
+		img {
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;		
+		}
+		main{
+		background: lightgray;
+		min-height: 1400px;
+		}
+		picture img{
+		min-height: 100px;	 
+		}
+		.lazy{
+		 visibility: hidden;
+		/* display: none; */
+		}
+		img {
+		  opacity: 1;
+		  transition: opacity 0.3s;
+		}
+		img[data-src] {
+		  opacity: 0;
+		}
+	 </style>
 	   
+	<link rel="shortcut icon" type="image/webp" href="https://ruu.lv/ui/img/logo/favicon-32.webp"/>
 	<meta charset="UTF-8">
 	<meta name="theme-color" content="#1d2523"/>
-	<link rel="shortcut icon" href="favicon.ico" />
-	<link rel="manifest" href="manifest.json" />
+	<link rel="manifest" href="https://ruu.lv/manifest.json" />
 	<meta name="viewport" content="width=device-width">
 	  
 	<title>Analog Photography | ruu.lv</title>	  
 	<meta name="title" content="Analog Photography | ruu.lv">
-	<meta name="description" content="">
+	<meta name="description" content="Life captured on a photographic film 📸">
 	  
 	 <!-- Image for a social network sharing. Useful https://metatags.io/ -->
 	<!-- Open Graph / Facebook -->
@@ -28,101 +56,96 @@
 	<meta property="twitter:title" content="Analog Photography | ruu.lv">
 	<meta property="twitter:description" content="">
 	<meta property="twitter:image" content="https://ruu.lv/ui/img/logo/20191224-Poga-0001-Eyes-by-Janis-Rullis-1024x.jpg">	
+<style>
+img.placeholder{
+	opacity: 1;
+	width: 100%;
+}
+</style>
   </head>
   <body>
 	<header>		
-	  <a href="javascript:;" onclick="toggleFullscreen()" style="float: center:"><img  id="fullscreen-btn" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ic_fullscreen_48px.svg"></a>
+	  <a href="javascript:;" onclick="toggleFullscreen()" style="float: center:"><img  id="fullscreen-btn" src="ui/img/Ic_fullscreen_48px.svg"></a>
 	  <a href="mailto:janis.rullis.photo@gmail.com" style="float: center:"><img src="ui/img/email.png"></a>
 	</header>
 	<main>
 	  <section>
 		<!--
 		## To add a new image COPY this and FILL:
-		* DRIVE_LINK - https://drive.google.com/uc?export=view&id=ID
-		* Replace /open?id with /uc?export=view&id
-		* 459px may need the roated version.
+		* DRIVELINK - https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-
+		* PLACEHOLDER - gray placholder webp.
 		* DESCR
-		* FILENAME
+					
+		<picture class="lazy">
+		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://ik.imagekit.io/ruu/DRIVELINK1920x.webp, https://ik.imagekit.io/ruu/DRIVELINK3840x.webp 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://ik.imagekit.io/ruu/DRIVELINK1600x.webp, https://ik.imagekit.io/ruu/DRIVELINK3200x.webp 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://ik.imagekit.io/ruu/DRIVELINK1366x.webp, https://ik.imagekit.io/ruu/DRIVELINK2732x.webp 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://ik.imagekit.io/ruu/DRIVELINK1024x.webp, https://ik.imagekit.io/ruu/DRIVELINK2048x.webp 2x">
+		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://ik.imagekit.io/ruu/DRIVELINK768x.webp, https://ik.imagekit.io/ruu/DRIVELINK1536x.webp 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://ik.imagekit.io/ruu/DRIVELINK450x.webp, https://ik.imagekit.io/ruu/DRIVELINK900x.webp 2x">
 
-		FILENAME			
-		<picture class="lazy">         
-		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="DRIVELINK1920, DRIVELINK3840 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="DRIVELINK1600, DRIVELINK3200 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="DRIVELINK1366, DRIVELINK2732 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" data-srcset="DRIVELINK1024, DRIVELINK2048 2x">
-		  <source type="image/webp" media="(min-width: 460px)" data-srcset="DRIVELINK768, DRIVELINK1536 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" data-srcset="DRIVELINK450, DRIVELINK900 2x">
-
-		  <img  alt="DESCR" title="DESCR" data-src="DRIVELINK1600">
+		  <img alt="DESCR" title="DESCR" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/PLACEHOLDER-700x-gray-placeholder.webp" data-src="https://ik.imagekit.io/ruu/DRIVELINK1600x.webp" class="placeholder">
 		</picture>
 
 		-->
-		  
-		  	<!-- 20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-3840x.webp -->
-		<picture class="lazy">           
-		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://drive.google.com/uc?export=view&id=1x6xlWYPVX2wa1N9zqS7PKC1mBwrgHrgH, https://drive.google.com/uc?export=view&id=1IQrsRsLRxKRem-4CDdOonNqjA0_BVfuM 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://drive.google.com/uc?export=view&id=1v4dfwrT9txNbZtiRJ5nA9GyYtjRzNJg2, https://drive.google.com/uc?export=view&id=1KUxgudIm0Evc5sYpxmDjJ2gcEa__tcdm 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://drive.google.com/uc?export=view&id=1Rgmd1isik06VCjHNHA4vZkolbidTKWbp, https://drive.google.com/uc?export=view&id=1TGjBRpa3B2sPHZ9lDpKmXIDG31ClBiMF 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://drive.google.com/uc?export=view&id=1KbXTLDhxeIliEa3NxmVvg1sSnF62SBVO, https://drive.google.com/uc?export=view&id=1reYudAyxm9W4AAPe7BIZqtC1g5lPDPKZ 2x">
-		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://drive.google.com/uc?export=view&id=1asZlhSgaLF3ktb8AuH5ocKOdCyIKSymT, https://drive.google.com/uc?export=view&id=1kZJMq1YB3MFZt60RDmpPm3bXD8bF2vD6 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://drive.google.com/uc?export=view&id=1dvFVjeMI4dTRWRQjo-PueVK1dOB5MN66, https://drive.google.com/uc?export=view&id=1-6uNrCVQFEZPntVVaQGAxWa8KRNT21TM 2x">
+		
+		<picture class="lazy">
+		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://ik.imagekit.io/ruu/7-bel-sun/20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-1920x.webp, https://ik.imagekit.io/ruu/7-bel-sun/20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-3840x.webp 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://ik.imagekit.io/ruu/7-bel-sun/20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-1600x.webp, https://ik.imagekit.io/ruu/7-bel-sun/20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-3200x.webp 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://ik.imagekit.io/ruu/7-bel-sun/20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-1366x.webp, https://ik.imagekit.io/ruu/7-bel-sun/20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-2732x.webp 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://ik.imagekit.io/ruu/7-bel-sun/20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-1024x.webp, https://ik.imagekit.io/ruu/7-bel-sun/20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-2048x.webp 2x">
+		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://ik.imagekit.io/ruu/7-bel-sun/20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-768x.webp, https://ik.imagekit.io/ruu/7-bel-sun/20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-1536x.webp 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://ik.imagekit.io/ruu/7-bel-sun/20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-450x.webp, https://ik.imagekit.io/ruu/7-bel-sun/20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-900x.webp 2x">
 
-		  <img  alt="Belarus-Ukraine | © 2019 Janis Rullis | ruu.lv" title="Belarus-Ukraine | © 2019 Janis Rullis | ruu.lv" data-src="https://drive.google.com/uc?export=view&id=1v4dfwrT9txNbZtiRJ5nA9GyYtjRzNJg2">
+		  <img alt="Belarus-Ukraine | © 2019 Janis Rullis | ruu.lv" title="Belarus-Ukraine | © 2019 Janis Rullis | ruu.lv" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-700x-gray-placeholder.webp" data-src="https://ik.imagekit.io/ruu/7-bel-sun/20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-1600x.webp" class="placeholder">
+		</picture>
+
+		<picture class="lazy">
+		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://ik.imagekit.io/ruu/17-dita-proj/20190930-Dita-0002-Projections-by-Janis-Rullis-1920x.webp, https://ik.imagekit.io/ruu/17-dita-proj/20190930-Dita-0002-Projections-by-Janis-Rullis-3840x.webp 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://ik.imagekit.io/ruu/17-dita-proj/20190930-Dita-0002-Projections-by-Janis-Rullis-1600x.webp, https://ik.imagekit.io/ruu/17-dita-proj/20190930-Dita-0002-Projections-by-Janis-Rullis-3200x.webp 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://ik.imagekit.io/ruu/17-dita-proj/20190930-Dita-0002-Projections-by-Janis-Rullis-1366x.webp, https://ik.imagekit.io/ruu/17-dita-proj/20190930-Dita-0002-Projections-by-Janis-Rullis-2732x.webp 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://ik.imagekit.io/ruu/17-dita-proj/20190930-Dita-0002-Projections-by-Janis-Rullis-1024x.webp, https://ik.imagekit.io/ruu/17-dita-proj/20190930-Dita-0002-Projections-by-Janis-Rullis-2048x.webp 2x">
+		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://ik.imagekit.io/ruu/17-dita-proj/20190930-Dita-0002-Projections-by-Janis-Rullis-768x.webp, https://ik.imagekit.io/ruu/17-dita-proj/20190930-Dita-0002-Projections-by-Janis-Rullis-1536x.webp 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://ik.imagekit.io/ruu/17-dita-proj/20190930-Dita-0002-Projections-by-Janis-Rullis-450x.webp, https://ik.imagekit.io/ruu/17-dita-proj/20190930-Dita-0002-Projections-by-Janis-Rullis-900x.webp 2x">
+
+		  <img alt="Dita | © 2019 Janis Rullis | ruu.lv" title="Dita | © 2019 Janis Rullis | ruu.lv" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/20190930-Dita-0002-Projections-by-Janis-Rullis-700x-gray-placeholder.webp" data-src="https://ik.imagekit.io/ruu/17-dita-proj/20190930-Dita-0002-Projections-by-Janis-Rullis-1600x.webp" class="placeholder">
+		</picture>
+
+		<picture class="lazy">
+		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-1920x.webp, https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-3840x.webp 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-1600x.webp, https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-3200x.webp 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-1366x.webp, https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-2732x.webp 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-1024x.webp, https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-2048x.webp 2x">
+		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-768x.webp, https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-1536x.webp 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-450x.webp, https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-900x.webp 2x">
+
+		  <img alt="Dita | © 2019 Janis Rullis | ruu.lv" title="Dita | © 2019 Janis Rullis | ruu.lv" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/20190930-Dita-0001-Win-by-Janis-Rullis-700x-gray-placeholder.webp" data-src="https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-1600x.webp" class="placeholder">
 		</picture>
 		  
-		<!-- 20190930-Dita-3-projections-by-Janis-Rullis-1.jpg -->
-		<picture class="lazy">   
-		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://drive.google.com/uc?export=view&id=1HmTRPuyHwcuJcfk4BKw70slv9OAIt2Jl, https://drive.google.com/uc?export=view&id=1j8D7EPc06wYYq0vQCHut7A_yd_LEXUQu 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://drive.google.com/uc?export=view&id=1bHvv7cruNw2rBnlYm41KXNXM5RAkiG29, https://drive.google.com/uc?export=view&id=18aUMpZkfm5ecpQtwU6LNsC0f4DU52fpu 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://drive.google.com/uc?export=view&id=1dSl38-Ghpjqkz93sqcsFp8yyJec15j9P, https://drive.google.com/uc?export=view&id=1Z7L9YEvlXgkc68Ywbw5mEmiSpfIIU7uj 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://drive.google.com/uc?export=view&id=1RlVMPHV_RaNFirUdI5e0x85ZUzREeDci, https://drive.google.com/uc?export=view&id=1egD0RNUQmQqMzUnXQdDc3lLh4H3H6maK 2x">
-		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://drive.google.com/uc?export=view&id=1DAS3u4gDZTwYQSLmQQUb1CecQRwEC4B_, https://drive.google.com/uc?export=view&id=1iRFCJ7stfqWqwynzzeE-A74F_BHuHW1S 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://drive.google.com/uc?export=view&id=1k5srpKXjFkVammx9K0G87BTwU_sRaH1h, https://drive.google.com/uc?export=view&id=1rpPuhDhslDOS92Ci-pWet3FG98m3x3y1 2x">
+		<picture class="lazy">
+		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://ik.imagekit.io/ruu/10-dace/20190401-Dace-0001-Hands-by-Janis-Rullis-1920x.webp, https://ik.imagekit.io/ruu/10-dace/20190401-Dace-0001-Hands-by-Janis-Rullis-3840x.webp 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://ik.imagekit.io/ruu/10-dace/20190401-Dace-0001-Hands-by-Janis-Rullis-1600x.webp, https://ik.imagekit.io/ruu/10-dace/20190401-Dace-0001-Hands-by-Janis-Rullis-3200x.webp 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://ik.imagekit.io/ruu/10-dace/20190401-Dace-0001-Hands-by-Janis-Rullis-1366x.webp, https://ik.imagekit.io/ruu/10-dace/20190401-Dace-0001-Hands-by-Janis-Rullis-2732x.webp 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://ik.imagekit.io/ruu/10-dace/20190401-Dace-0001-Hands-by-Janis-Rullis-1024x.webp, https://ik.imagekit.io/ruu/10-dace/20190401-Dace-0001-Hands-by-Janis-Rullis-2048x.webp 2x">
+		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://ik.imagekit.io/ruu/10-dace/20190401-Dace-0001-Hands-by-Janis-Rullis-768x.webp, https://ik.imagekit.io/ruu/10-dace/20190401-Dace-0001-Hands-by-Janis-Rullis-1536x.webp 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://ik.imagekit.io/ruu/10-dace/20190401-Dace-0001-Hands-by-Janis-Rullis-450x.webp, https://ik.imagekit.io/ruu/10-dace/20190401-Dace-0001-Hands-by-Janis-Rullis-900x.webp 2x">
 
-		  <img  alt="Dita | © 2019 Janis Rullis | ruu.lv" title="Dita | © 2019 Janis Rullis | ruu.lv" data-src="https://drive.google.com/uc?export=view&id=1bHvv7cruNw2rBnlYm41KXNXM5RAkiG2">
+		  <img alt="Dace | © 2019 Janis Rullis | ruu.lv" title="Dace | © 2019 Janis Rullis | ruu.lv" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/20190401-Dace-0001-Hands-by-Janis-Rullis--700x-gray-placeholder.webp" data-src="https://ik.imagekit.io/ruu/10-dace/20190401-Dace-0001-Hands-by-Janis-Rullis-1600x.webp" class="placeholder">
 		</picture>
 
-<!-- 20190930-Dita-5-win-by-Janis-Rullis-2.jpg -->
-		<picture class="lazy">   
-		   <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://drive.google.com/uc?export=view&id=1lGK_WEMfaaKlNQe5hEKwGFz1AsdFTez0, https://drive.google.com/uc?export=view&id=1cq4rhHTNKUGYWbaO-tzTteYv8I1-1mzO 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://drive.google.com/uc?export=view&id=1KW47XTrrU1Aq0YpkSTnrIefYTdo7Z6Uv, https://drive.google.com/uc?export=view&id=1onz2WKqKUWwkYHIhzy7nHXgpfS9sR0JA 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://drive.google.com/uc?export=view&id=1kOrSiAvdH4NzH_Fi7R8RRRIz6Ui-vsud, https://drive.google.com/uc?export=view&id=1PYgeMRFB6C7O-zvCrsAhhfsFxmu4Sgop 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://drive.google.com/uc?export=view&id=1wBuFGjQRLw5VItfFI85slKtIOWrLJ0Lk, https://drive.google.com/uc?export=view&id=1_2CDoEq7WyY27s8EihV-yG2pwlO5A4uB 2x">
-		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://drive.google.com/uc?export=view&id=1is1jahHK_E7iV69ELXNm8NLKFJJUZJ2C, https://drive.google.com/uc?export=view&id=1FTcP6lUALNz4AhoIUu7KT3I0jxp2Xtpi 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://drive.google.com/uc?export=view&id=1GbB2hzDXcByVSTa8-7hIscMFtYgMQPhj, https://drive.google.com/uc?export=view&id=1B4p1g1e6jcBruHfOQFEflqDLJSsyN9Xx 2x">
+		<picture class="lazy">
+		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://ik.imagekit.io/ruu/15-dita-ft/20190930-Dita-0001-Feet-by-Janis-Rullis-1920x.webp, https://ik.imagekit.io/ruu/15-dita-ft/20190930-Dita-0001-Feet-by-Janis-Rullis-3840x.webp 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://ik.imagekit.io/ruu/15-dita-ft/20190930-Dita-0001-Feet-by-Janis-Rullis-1600x.webp, https://ik.imagekit.io/ruu/15-dita-ft/20190930-Dita-0001-Feet-by-Janis-Rullis-3200x.webp 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://ik.imagekit.io/ruu/15-dita-ft/20190930-Dita-0001-Feet-by-Janis-Rullis-1366x.webp, https://ik.imagekit.io/ruu/15-dita-ft/20190930-Dita-0001-Feet-by-Janis-Rullis-2732x.webp 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://ik.imagekit.io/ruu/15-dita-ft/20190930-Dita-0001-Feet-by-Janis-Rullis-1024x.webp, https://ik.imagekit.io/ruu/15-dita-ft/20190930-Dita-0001-Feet-by-Janis-Rullis-2048x.webp 2x">
+		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://ik.imagekit.io/ruu/15-dita-ft/20190930-Dita-0001-Feet-by-Janis-Rullis-768x.webp, https://ik.imagekit.io/ruu/15-dita-ft/20190930-Dita-0001-Feet-by-Janis-Rullis-1536x.webp 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://ik.imagekit.io/ruu/15-dita-ft/20190930-Dita-0001-Feet-by-Janis-Rullis-450x.webp, https://ik.imagekit.io/ruu/15-dita-ft/20190930-Dita-0001-Feet-by-Janis-Rullis-900x.webp 2x">
 
-		  <img  alt="Dita | © 2019 Janis Rullis | ruu.lv" title="Dita | © 2019 Janis Rullis | ruu.lv" data-src="https://drive.google.com/uc?export=view&id=1KW47XTrrU1Aq0YpkSTnrIefYTdo7Z6Uv">
+		  <img alt="Dita | © 2019 Janis Rullis | ruu.lv" title="Dita | © 2019 Janis Rullis | ruu.lv" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/20190930-Dita-0001-Feet-by-Janis-Rullis-700x-gray-placeholder.webp" data-src="https://ik.imagekit.io/ruu/15-dita-ft/20190930-Dita-0001-Feet-by-Janis-Rullis-1600x.webp" class="placeholder">
 		</picture>
-		  
-		  
-		<!-- 20190401-Dace-hands-by-Janis-Rullis-1.jpg -->			
-		<picture class="lazy">   
-		 <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://drive.google.com/uc?export=view&id=17pFN82-HtlEcgnhhYUgFTHYwUeZd13b8, https://drive.google.com/uc?export=view&id=1dPbixHwDaOfOe7A37HnB05BAMu3FFMTd 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://drive.google.com/uc?export=view&id=1kVRc6X3DuVf6-kDSE2pGaAxIfcDifa8_, https://drive.google.com/uc?export=view&id=14xGFJnkWWZL6O7Vr7SPsN0o1dG8gKfj4 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://drive.google.com/uc?export=view&id=1k4HYzykpTMIrD8Flk8JBEEs9plMTewlU, https://drive.google.com/uc?export=view&id=1pNd6-3JPT039kWHDNN8o415U4_42tEv9 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://drive.google.com/uc?export=view&id=1s3fagOmMu1twz8NMHa2TDwDYdgWXTehC, https://drive.google.com/uc?export=view&id=186kqOCFvU8s8fAoC6owEIWjmLWaCz4C5 2x">
-		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://drive.google.com/uc?export=view&id=13n53CIYz1hxIHBPe4knV7yaB91C4h1as, https://drive.google.com/uc?export=view&id=1EAzox9HrjTnFIiaFkNMSUHstavOkUjxV 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://drive.google.com/uc?export=view&id=1EkNJkupGopLvh_wRAB1suTpabHCFFhvz, https://drive.google.com/uc?export=view&id=17y1ke4BuxrP7bI6JA0s_LHWrrSe0r215 2x">
-
-		  <img  alt="Dace | © 2019 Janis Rullis | ruu.lv" title="Dace | © 2019 Janis Rullis | ruu.lv" data-src="https://drive.google.com/uc?export=view&id=1kVRc6X3DuVf6-kDSE2pGaAxIfcDifa8_">
-		</picture>
-
-
-		<!-- 20190930-Dita-6-feet-by-Janis-Rullis-3.jpg -->			
-		<picture class="lazy">      
-		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://drive.google.com/uc?export=view&id=1sXA9Wm783yb4g3HE04pvh9H4bf_XPKZa, https://drive.google.com/uc?export=view&id=1l6H5pOkEplH1wFRiyzcILA-RWUyOsrXD 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://drive.google.com/uc?export=view&id=1oO4cUzPZw6C0lshunZ5dDYM4TW3P5GpH, https://drive.google.com/uc?export=view&id=15SbHq0xpIoo-zd8qlpIYtcV9AwznFZ3k 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://drive.google.com/uc?export=view&id=1fAAGvbmEiWiWSBj2PL4q7UG8DrRc6s0r, https://drive.google.com/uc?export=view&id=1J2h_YsoUfbWQQFjQh4e1bAwH38aFzeKg 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://drive.google.com/uc?export=view&id=1msRRczvigEGtIjmEhpicQBHIvh3_rxWG, https://drive.google.com/uc?export=view&id=1VnpSRwfPIejE7-PWfLZKIVaYsVaan2H4 2x">
-		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://drive.google.com/uc?export=view&id=16rMl7sp7tuDJBfQr2Bd6zM4KCyEd4rTZ, https://drive.google.com/uc?export=view&id=1HRjK2HPgtoGO1ru_re4UtlsitEaaq3CD 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://drive.google.com/uc?export=view&id=1c49ige2Qhfv9alJGb-sZkAlyjJJ7xIrB, https://drive.google.com/uc?export=view&id=1u_D6BTwSjz64GrvolLW-Ey5i1b4OXbus 2x">
-
-		  <img  alt="Dita | © 2019 Janis Rullis | ruu.lv" title="Dita | © 2019 Janis Rullis | ruu.lv" data-src="https://drive.google.com/uc?export=view&id=1oO4cUzPZw6C0lshunZ5dDYM4TW3P5GpH">
-		</picture>
-	  </section>
 	</main>
 	<footer>    
-	    <a href="2019-8.html" style="float: center;"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Ic_arrow_forward_48px.svg"></a>
+	    <a href="2019-8.html" style="float: center;"><img src="ui/img/Ic_arrow_forward_48px.svg"></a>
 	</footer>
 
 	<!-- 
@@ -143,5 +166,91 @@
 	  ### Icons
 	  *  https://upload.wikimedia.org/wikipedia/commons/4/4b/Bw-fullscreen.svg
 	  -->  
+	
+	<script>
+		// Note: Using legacy notation like `var` (and not `let`) for compatibility reasons.
+
+		var elem = document.documentElement;
+		var is_fullscreen=false;
+		function toggleFullscreen(){
+		  if(is_fullscreen){
+		    closeFullscreen();				
+		  }else{
+		    openFullscreen();				
+		  }			
+		}
+		function openFullscreen() {
+		  is_fullscreen = true;
+		  document.getElementById('fullscreen-btn').style.background = "#d3d3d366";
+		  if (elem.requestFullscreen) {
+		  elem.requestFullscreen();
+		  } else if (elem.mozRequestFullScreen) { /* Firefox */
+		  elem.mozRequestFullScreen();
+		  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+		  elem.webkitRequestFullscreen();
+		  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+		  elem.msRequestFullscreen();
+		  }
+		}
+
+		function closeFullscreen() {
+		   is_fullscreen = false;
+		   document.getElementById('fullscreen-btn').style.background = "initial";
+		  if (document.exitFullscreen) {
+		  document.exitFullscreen();
+		  } else if (document.mozCancelFullScreen) {
+		  document.mozCancelFullScreen();
+		  } else if (document.webkitExitFullscreen) {
+		  document.webkitExitFullscreen();
+		  } else if (document.msExitFullscreen) {
+		  document.msExitFullscreen();
+		  }
+		}		
+
+		// Activate an image by setting it's target.
+		function loadLazyPic(lazyPic){		
+
+		  // Define used variables.		   
+		   var sources, source, img;
+
+		  // In `source` element.
+		  sources = lazyPic.querySelectorAll("source")
+		  var srcCnt = sources.length;			
+		  for(var j = 0; j < srcCnt; j++){
+		    source = sources[j];				
+		    source.srcset = source.dataset.srcset;
+		  }		
+
+		  // In `img` element.
+		  img = lazyPic.querySelector("img");			
+
+		  // https://davidwalsh.name/lazyload-image-fade
+		  img.setAttribute('src', img.getAttribute('data-src'));
+		  img.onload = function() {
+		    img.removeAttribute('data-src');
+		  };
+
+		  // Mark the image as processed;				
+		  lazyPic.classList.remove("lazy");			
+		}
+
+		// Activate images by setting their targets.
+		function loadLazyPics(){
+
+		  // Find all images than needs to be loaded with a delay.
+		   var lazyPics = document.querySelectorAll(".lazy")
+
+		  for(var i = 0; i < lazyPics.length; i++){	
+		    
+		    loadLazyPic(lazyPics[i]);
+		    // Execture this every 0,7s. Note, the `* i`, otherwise everything is executed exactly after 0.7s.
+		    //setTimeout(loadLazyPic, 100 * i, lazyPics[i]);
+		  }
+		}
+
+		document.addEventListener("DOMContentLoaded", function() {		   
+		  loadLazyPics();		   			
+		});
+	</script>
   </body>
 </html>
