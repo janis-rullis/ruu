@@ -2,37 +2,17 @@
 <html>
   <head> 
 	<style>
-		body {
-		width: 100%;
-		max-width: 1920px;
-		margin: 0 auto;		
-		}      
 		img {
 		display: block;
 		margin: 0 auto;
 		max-width: 100%;		
 		}
-		main{
-		background: lightgray;
-		min-height: 1400px;
-		}
-		picture img{
-		min-height: 100px;	 
-		}
-		.lazy{
-		 visibility: hidden;
-		/* display: none; */
-		}
-		img {
-		  opacity: 1;
-		  transition: opacity 0.3s;
-		}
-		img[data-src] {
-		  opacity: 0;
+		img.placeholder{
+		width: 100%;
+		min-height: 100px;
 		}
 	 </style>
-	   
-	<link rel="shortcut icon" type="image/webp" href="https://ruu.lv/ui/img/logo/favicon-32.webp"/>
+   	<link rel="shortcut icon" type="image/webp" href="https://cdn.statically.io/img/ruu.lv/ui/img/logo/favicon-32.webp"/>
 	<meta charset="UTF-8">
 	<meta name="theme-color" content="#1d2523"/>
 	<link rel="manifest" href="https://ruu.lv/manifest.json" />
@@ -42,53 +22,28 @@
 	<meta name="title" content="Analog Photography | ruu.lv">
 	<meta name="description" content="Life captured on a photographic film 📸">
 	  
-	 <!-- Image for a social network sharing. Useful https://metatags.io/ -->
+	<!-- Image for a social network sharing. Useful https://metatags.io/ -->
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://ruu.lv/">
 	<meta property="og:title" content="Analog Photography | ruu.lv">
-	<meta property="og:description" content="">
-	<meta property="og:image" content="https://ruu.lv/ui/img/logo/20191224-Poga-0001-Eyes-by-Janis-Rullis-1024x.jpg">
+	<meta property="og:description" content="Life captured on a photographic film 📸">
+	<meta property="og:image" content="https://cdn.statically.io/img/ruu.lv/ui/img/logo/20191224-Poga-0001-Eyes-by-Janis-Rullis-1024x.jpg">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="https://ruu.lv/">
 	<meta property="twitter:title" content="Analog Photography | ruu.lv">
-	<meta property="twitter:description" content="">
-	<meta property="twitter:image" content="https://ruu.lv/ui/img/logo/20191224-Poga-0001-Eyes-by-Janis-Rullis-1024x.jpg">	
-<style>
-img.placeholder{
-	opacity: 1;
-	width: 100%;
-}
-</style>
+	<meta property="twitter:description" content="Life captured on a photographic film 📸">
+	<meta property="twitter:image" content="https://cdn.statically.io/img/ruu.lv/ui/img/logo/20191224-Poga-0001-Eyes-by-Janis-Rullis-1024x.jpg">	
   </head>
-  <body>
+  <body style="width: 100%; max-width: 1920px;	margin: 0 auto;">
 	<header>		
-	  <a href="javascript:;" onclick="toggleFullscreen()" style="float: center:"><img  id="fullscreen-btn" src="ui/img/Ic_fullscreen_48px.svg"></a>
-	  <a href="mailto:janis.rullis.photo@gmail.com" style="float: center:"><img src="ui/img/email.png"></a>
+	  <a href="javascript:;" onclick="toggleFullscreen()" style="float: center:"><img  id="fullscreen-btn" src="https://cdn.statically.io/img/ruu.lv/ui/img/Ic_fullscreen_48px.svg"></a>
+	  <a href="mailto:janis.rullis.photo@gmail.com" style="float: center:"><img src="https://cdn.statically.io/img/ruu.lv/ui/img/email.png"></a>
 	</header>
-	<main>
-	  <section>
-		<!--
-		## To add a new image COPY this and FILL:
-		* DRIVELINK - https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-
-		* PLACEHOLDER - gray placholder webp.
-		* DESCR
-					
-		<picture class="lazy">
-		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://ik.imagekit.io/ruu/DRIVELINK1920x.webp, https://ik.imagekit.io/ruu/DRIVELINK3840x.webp 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://ik.imagekit.io/ruu/DRIVELINK1600x.webp, https://ik.imagekit.io/ruu/DRIVELINK3200x.webp 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://ik.imagekit.io/ruu/DRIVELINK1366x.webp, https://ik.imagekit.io/ruu/DRIVELINK2732x.webp 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://ik.imagekit.io/ruu/DRIVELINK1024x.webp, https://ik.imagekit.io/ruu/DRIVELINK2048x.webp 2x">
-		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://ik.imagekit.io/ruu/DRIVELINK768x.webp, https://ik.imagekit.io/ruu/DRIVELINK1536x.webp 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://ik.imagekit.io/ruu/DRIVELINK450x.webp, https://ik.imagekit.io/ruu/DRIVELINK900x.webp 2x">
-
-		  <img alt="DESCR" title="DESCR" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/PLACEHOLDER-700x-gray-placeholder.webp" data-src="https://ik.imagekit.io/ruu/DRIVELINK1600x.webp" class="placeholder">
-		</picture>
-
-		-->
-		
+	<main style="background: lightgray; min-height: 1400px;">
+	  <section>	
 		<picture class="lazy">
 		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://ik.imagekit.io/ruu/9-lode/20190914-Lode-0001-Clay-by-Janis-Rullis-1920x.webp, https://ik.imagekit.io/ruu/9-lode/20190914-Lode-0001-Clay-by-Janis-Rullis-3840x.webp 2x">
 		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://ik.imagekit.io/ruu/9-lode/20190914-Lode-0001-Clay-by-Janis-Rullis-1600x.webp, https://ik.imagekit.io/ruu/9-lode/20190914-Lode-0001-Clay-by-Janis-Rullis-3200x.webp 2x">
@@ -96,7 +51,6 @@ img.placeholder{
 		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://ik.imagekit.io/ruu/9-lode/20190914-Lode-0001-Clay-by-Janis-Rullis-1024x.webp, https://ik.imagekit.io/ruu/9-lode/20190914-Lode-0001-Clay-by-Janis-Rullis-2048x.webp 2x">
 		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://ik.imagekit.io/ruu/9-lode/20190914-Lode-0001-Clay-by-Janis-Rullis-768x.webp, https://ik.imagekit.io/ruu/9-lode/20190914-Lode-0001-Clay-by-Janis-Rullis-1536x.webp 2x"> 			
 		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://ik.imagekit.io/ruu/9-lode/20190914-Lode-0001-Clay-by-Janis-Rullis-450x.webp, https://ik.imagekit.io/ruu/9-lode/20190914-Lode-0001-Clay-by-Janis-Rullis-900x.webp 2x">
-
 		  <img alt="Lode | © 2019 Janis Rullis | ruu.lv" title="Lode | © 2019 Janis Rullis | ruu.lv" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/20190914-Lode-0001-Clay-by-Janis-Rullis-700x-gray-placeholder.webp" data-src="https://ik.imagekit.io/ruu/9-lode/20190914-Lode-0001-Clay-by-Janis-Rullis-1600x.webp" class="placeholder">
 		</picture>
 
@@ -107,7 +61,6 @@ img.placeholder{
 		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://ik.imagekit.io/ruu/13-poga/20191224-Poga-0001-Eyes-by-Janis-Rullis-1024x.webp, https://ik.imagekit.io/ruu/13-poga/20191224-Poga-0001-Eyes-by-Janis-Rullis-2048x.webp 2x">
 		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://ik.imagekit.io/ruu/13-poga/20191224-Poga-0001-Eyes-by-Janis-Rullis-768x.webp, https://ik.imagekit.io/ruu/13-poga/20191224-Poga-0001-Eyes-by-Janis-Rullis-1536x.webp 2x"> 			
 		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://ik.imagekit.io/ruu/13-poga/20191224-Poga-0001-Eyes-by-Janis-Rullis-450x.webp, https://ik.imagekit.io/ruu/13-poga/20191224-Poga-0001-Eyes-by-Janis-Rullis-900x.webp 2x">
-
 		  <img alt="Poga | © 2019 Janis Rullis | ruu.lv" title="Poga | © 2019 Janis Rullis | ruu.lv" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/20191224-Poga-0001-Eyes-by-Janis-Rullis-700x-gray-placeholder.webp" data-src="https://ik.imagekit.io/ruu/13-poga/20191224-Poga-0001-Eyes-by-Janis-Rullis-1600x.webp" class="placeholder">
 		</picture>
 
@@ -118,19 +71,7 @@ img.placeholder{
 		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://ik.imagekit.io/ruu/11-dave/20190327-Dave-0001-Work-by-Janis-Rullis-1024x.webp, https://ik.imagekit.io/ruu/11-dave/20190327-Dave-0001-Work-by-Janis-Rullis-2048x.webp 2x">
 		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://ik.imagekit.io/ruu/11-dave/20190327-Dave-0001-Work-by-Janis-Rullis-768x.webp, https://ik.imagekit.io/ruu/11-dave/20190327-Dave-0001-Work-by-Janis-Rullis-1536x.webp 2x"> 			
 		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://ik.imagekit.io/ruu/11-dave/20190327-Dave-0001-Work-by-Janis-Rullis-450x.webp, https://ik.imagekit.io/ruu/11-dave/20190327-Dave-0001-Work-by-Janis-Rullis-900x.webp 2x">
-
 		  <img alt="Dave | © 2019 Janis Rullis | ruu.lv" title="Dave | © 2019 Janis Rullis | ruu.lv" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/20190327-Dave-0001-Work-by-Janis-Rullis-700x-gray-placeholder.webp" data-src="https://ik.imagekit.io/ruu/11-dave/20190327-Dave-0001-Work-by-Janis-Rullis-1600x.webp" class="placeholder">
-		</picture>
-
-		<picture class="lazy">
-		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://ik.imagekit.io/ruu/14-train/20190313-Train-0001-Tunnel-by-Janis-Rullis-1920x.webp, https://ik.imagekit.io/ruu/14-train/20190313-Train-0001-Tunnel-by-Janis-Rullis-3840x.webp 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://ik.imagekit.io/ruu/14-train/20190313-Train-0001-Tunnel-by-Janis-Rullis-1600x.webp, https://ik.imagekit.io/ruu/14-train/20190313-Train-0001-Tunnel-by-Janis-Rullis-3200x.webp 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://ik.imagekit.io/ruu/14-train/20190313-Train-0001-Tunnel-by-Janis-Rullis-1366x.webp, https://ik.imagekit.io/ruu/14-train/20190313-Train-0001-Tunnel-by-Janis-Rullis-2732x.webp 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://ik.imagekit.io/ruu/14-train/20190313-Train-0001-Tunnel-by-Janis-Rullis-1024x.webp, https://ik.imagekit.io/ruu/14-train/20190313-Train-0001-Tunnel-by-Janis-Rullis-2048x.webp 2x">
-		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://ik.imagekit.io/ruu/14-train/20190313-Train-0001-Tunnel-by-Janis-Rullis-768x.webp, https://ik.imagekit.io/ruu/14-train/20190313-Train-0001-Tunnel-by-Janis-Rullis-1536x.webp 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://ik.imagekit.io/ruu/14-train/20190313-Train-0001-Tunnel-by-Janis-Rullis-450x.webp, https://ik.imagekit.io/ruu/14-train/20190313-Train-0001-Tunnel-by-Janis-Rullis-900x.webp 2x">
-
-		  <img alt="Train | © 2019 Janis Rullis | ruu.lv" title="Train | © 2019 Janis Rullis | ruu.lv" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/20190313-Train-0001-Tunnel-by-Janis-Rullis-700x-gray-placeholder.webp" data-src="https://ik.imagekit.io/ruu/14-train/20190313-Train-0001-Tunnel-by-Janis-Rullis-1600x.webp" class="placeholder">
 		</picture>
 
 		<picture class="lazy">
@@ -140,44 +81,23 @@ img.placeholder{
 		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://ik.imagekit.io/ruu/8-bel-burned/20190616-Belarus-Ukraine-0003-Sinevir-by-Janis-Rullis-1024x.webp, https://ik.imagekit.io/ruu/8-bel-burned/20190616-Belarus-Ukraine-0003-Sinevir-by-Janis-Rullis-2048x.webp 2x">
 		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://ik.imagekit.io/ruu/8-bel-burned/20190616-Belarus-Ukraine-0003-Sinevir-by-Janis-Rullis-768x.webp, https://ik.imagekit.io/ruu/8-bel-burned/20190616-Belarus-Ukraine-0003-Sinevir-by-Janis-Rullis-1536x.webp 2x"> 			
 		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://ik.imagekit.io/ruu/8-bel-burned/20190616-Belarus-Ukraine-0003-Sinevir-by-Janis-Rullis-450x.webp, https://ik.imagekit.io/ruu/8-bel-burned/20190616-Belarus-Ukraine-0003-Sinevir-by-Janis-Rullis-900x.webp 2x">
-
 		  <img alt="Belarus-Ukraine | © 2019 Janis Rullis | ruu.lv" title="Belarus-Ukraine | © 2019 Janis Rullis | ruu.lv" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/20190616-Belarus-Ukraine-0003-Sinevir-by-Janis-Rullis-700x-gray-placeholder.webp" data-src="https://ik.imagekit.io/ruu/8-bel-burned/20190616-Belarus-Ukraine-0003-Sinevir-by-Janis-Rullis-1600x.webp" class="placeholder">
 		</picture>
 
 		<picture class="lazy">
-		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://ik.imagekit.io/ruu/12-jugla/20181203-Jugla-0001-Path-by-Janis-Rullis-1920x.webp, https://ik.imagekit.io/ruu/12-jugla/20181203-Jugla-0001-Path-by-Janis-Rullis-3840x.webp 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://ik.imagekit.io/ruu/12-jugla/20181203-Jugla-0001-Path-by-Janis-Rullis-1600x.webp, https://ik.imagekit.io/ruu/12-jugla/20181203-Jugla-0001-Path-by-Janis-Rullis-3200x.webp 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://ik.imagekit.io/ruu/12-jugla/20181203-Jugla-0001-Path-by-Janis-Rullis-1366x.webp, https://ik.imagekit.io/ruu/12-jugla/20181203-Jugla-0001-Path-by-Janis-Rullis-2732x.webp 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://ik.imagekit.io/ruu/12-jugla/20181203-Jugla-0001-Path-by-Janis-Rullis-1024x.webp, https://ik.imagekit.io/ruu/12-jugla/20181203-Jugla-0001-Path-by-Janis-Rullis-2048x.webp 2x">
-		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://ik.imagekit.io/ruu/12-jugla/20181203-Jugla-0001-Path-by-Janis-Rullis-768x.webp, https://ik.imagekit.io/ruu/12-jugla/20181203-Jugla-0001-Path-by-Janis-Rullis-1536x.webp 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://ik.imagekit.io/ruu/12-jugla/20181203-Jugla-0001-Path-by-Janis-Rullis-450x.webp, https://ik.imagekit.io/ruu/12-jugla/20181203-Jugla-0001-Path-by-Janis-Rullis-900x.webp 2x">
-
-		  <img alt="Jugla | © 2019 Janis Rullis | ruu.lv" title="Jugla | © 2019 Janis Rullis | ruu.lv" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/20181203-Jugla-0001-Path-by-Janis-Rullis-700x-gray-placeholder.webp" data-src="https://ik.imagekit.io/ruu/12-jugla/20181203-Jugla-0001-Path-by-Janis-Rullis-1600x.webp" class="placeholder">
+		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-1920x.webp, https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-3840x.webp 2x">
+		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-1600x.webp, https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-3200x.webp 2x">
+		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-1366x.webp, https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-2732x.webp 2x">			  
+		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-1024x.webp, https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-2048x.webp 2x">
+		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-768x.webp, https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-1536x.webp 2x"> 			
+		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-450x.webp, https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-900x.webp 2x">
+		  <img alt="Dita | © 2019 Janis Rullis | ruu.lv" title="Dita | © 2019 Janis Rullis | ruu.lv" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/20190930-Dita-0001-Win-by-Janis-Rullis-700x-gray-placeholder.webp" data-src="https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-1600x.webp" class="placeholder">
 		</picture>
+
 	</main>
 	<footer>    
-	    <a href="/" style="float: center;"><img src="ui/img/Ic_arrow_forward_48px.svg"></a>
+	    <a href="/2019-7.html" style="float: center;"><img src="https://cdn.statically.io/img/ruu.lv/ui/img/Ic_arrow_forward_48px.svg"></a>
 	</footer>
-
-	<!-- 
-	  ## Useful resourcess:		  
-	  * https://freshman.tech/responsive-images/
-	  * https://bitsofco.de/the-srcset-and-sizes-attributes/
-	  * https://developers.google.com/web/fundamentals/design-and-ux/responsive/images
-	  * https://css-tricks.com/planning-for-responsive-images/
-	  * https://css-tricks.com/responsive-images-css/
-	  * https://internetingishard.com/html-and-css/responsive-images/
-	  * https://medium.com/hceverything/applying-srcset-choosing-the-right-sizes-for-responsive-images-at-different-breakpoints-a0433450a4a3
-	  * https://www.freecodecamp.org/news/time-saving-css-techniques-to-create-responsive-images-ebb1e84f90d5/
-	  * https://www.freecodecamp.org/news/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433/
-	  * https://stitcher.io/blog/responsive-images-done-right
-	  * https://alligator.io/html/picture-element/
-	  * https://www.html5rocks.com/en/tutorials/responsive/picture-element/
-
-	  ### Icons
-	  *  https://upload.wikimedia.org/wikipedia/commons/4/4b/Bw-fullscreen.svg
-	  -->  
-	
 	<script>
 		// Note: Using legacy notation like `var` (and not `let`) for compatibility reasons.
 
