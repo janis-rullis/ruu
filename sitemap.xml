@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+  <loc>https://ruu.lv/</loc>
+  <lastmod>2019-11-12T11:19:39+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://ruu.lv/2019-9.html</loc>
+  <lastmod>2019-11-12T11:19:39+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+  <image:image>
+	<image:loc>https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-1600x.webp</image:loc>
+	<image:title>Sigulda | © 2019 Janis Rullis | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Sigulda, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+  <image:image>
+	<image:loc>https://ik.imagekit.io/ruu/3/20190921-Sigulda-0003-Atis-by-Janis-Rullis-1600x.webp</image:loc>
+	<image:title>Sigulda | © 2019 Janis Rullis | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Sigulda, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+  <image:image>
+	<image:loc>https://ik.imagekit.io/ruu/Lilaste-Forest/20190831-Lilaste-0001-Forest-by-Janis-Rullis-1600x.webp</image:loc>
+	<image:title>Lilaste | © 2019 Janis Rullis | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>
+	<image:geo_location>Lilaste, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+  <image:image>
+	<image:loc>https://ik.imagekit.io/ruu/Oma-Album/20190822-Oma-0001-Album-by-Janis-Rullis-1600x.webp</image:loc>
+	<image:title>Oma | © 2019 Janis Rullis | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+  <image:image>
+	<image:loc>https://ik.imagekit.io/ruu/6-bel-fly/20190616-Belarus-Ukraine-0001-Sinevir-by-Janis-Rullis-1600x.webp</image:loc>
+	<image:title>Belarus-Ukraine | © 2019 Janis Rullis | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Synevyr, Ukraine</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+  <image:image>
+	<image:loc>https://ik.imagekit.io/ruu/4-kl-pav/20190820-Kurzeme-Klaipeda-0002-Pavilosta-by-Janis-Rullis-1600x.webp</image:loc>
+	<image:title>Kurzeme-Klaipeda | © 2019 Janis Rullis | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Pavilosta, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/2019-8.html</loc>
+  <lastmod>2019-11-12T11:19:39+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ruu.lv/2019-7.html</loc>
+  <lastmod>2019-11-12T11:19:39+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.51</priority>
+</url>
+</urlset>
