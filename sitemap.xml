@@ -72,7 +72,7 @@
 	<image:loc>https://ik.imagekit.io/ruu/7-bel-sun/20190616-Belarus-Ukraine-0002-Sinevir-by-Janis-Rullis-1600x.webp</image:loc>
 	<image:title>Belarus-Ukraine | © 2019 Janis Rullis | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
-	<image:geo_location>Synevyr, Latvia</image:geo_location>
+	<image:geo_location>Synevyr, Ukraine</image:geo_location>
 	<image:license>https://ruu.lv</image:license>
   </image:image> 
 <image:image>
@@ -101,7 +101,42 @@
   <loc>https://ruu.lv/2019-8.html</loc>
   <lastmod>2019-11-12T11:19:39+00:00</lastmod>
   <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+  <priority>0.64</priority>	 				 			 
+  <image:image>
+	<image:loc>https://ik.imagekit.io/ruu/9-lode/20190914-Lode-0001-Clay-by-Janis-Rullis-1600x.webp</image:loc>
+	<image:title>Lode | © 2019 Janis Rullis | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Lode, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+<image:image>
+	<image:loc>https://ik.imagekit.io/ruu/13-poga/20191224-Poga-0001-Eyes-by-Janis-Rullis-1600x.webp</image:loc>
+	<image:title>Poga | © 2019 Janis Rullis | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Zaube, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+<image:image>
+	<image:loc>https://ik.imagekit.io/ruu/11-dave/20190327-Dave-0001-Work-by-Janis-Rullis-1600x.webp</image:loc>
+	<image:title>Dave | © 2019 Janis Rullis | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+<image:image>
+	<image:loc>https://ik.imagekit.io/ruu/8-bel-burned/20190616-Belarus-Ukraine-0003-Sinevir-by-Janis-Rullis-1600x.webp</image:loc>
+	<image:title>Belarus-Ukraine | © 2019 Janis Rullis | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Synevyr, Ukraine</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+<image:image>	
+	<image:loc>https://ik.imagekit.io/ruu/16-dita-win/20190930-Dita-0001-Win-by-Janis-Rullis-1600x.webp</image:loc>
+	<image:title>Dita | © 2019 Janis Rullis | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
 </url>
 <url>
   <loc>https://ruu.lv/2019-7.html</loc>
