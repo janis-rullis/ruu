@@ -1,6 +1,63 @@
 <!doctype html>
 <html ⚡>
 <head>
+	<!-- 
+	* view-source:https://www.searchenginejournal.com/seo-is-everyones-responsibility/335531/?ver=335531X3 
+	* https://github.com/ampproject/amphtml/blob/master/examples/metadata-examples/article-json-ld-twitter-card.amp.html
+	-->
+	<script type="application/ld+json">		
+	{
+	   "@context":"https://schema.org",
+	   "@type":"NewsArticle",
+	   "@id":"https://ruu.lv/#article",
+	   "datePublished":"2019-11-12T10:00:00+08:00",
+	   "dateModified":"2019-11-12T10:20:00+08:00",
+	   "url":"https://ruu.lv",
+	   "mainEntityOfPage":{
+	      "@type":"WebPage",
+	      "@id":"https://ruu.lv/#webpage",
+	      "url":"https://ruu.lv",
+	      "isPartOf":{
+		 "@type":"WebSite",
+		 "@id":"https://ruu.lv/#website",
+		 "url":"https://ruu.lv",
+		 "name":"Analog Photography | ruu.lv"
+	      }
+	   },
+	   "headline":"Life captured on a photographic film 📸",
+	   "description":"Portraits, landscapes, emotions.",
+	   "author":{
+	      "@type":"Person",
+	      "name":"Janis Rullis"
+	   },
+	   "publisher":{
+	      "@type":"Organization",
+	      "name":"ruu.lv",
+	      "@id":"https://ruu.lv/#organization",
+	      "url":"https://ruu.lv",
+	      "foundingDate":"2019",
+	      "logo":[
+		 {
+		    "@type":"ImageObject",
+		    "@id":"https://ruu.lv/#logo",
+		    "url":"https://cdn.statically.io/img/ruu.lv/ui/img/logo/20191224-Poga-0001-Eyes-by-Janis-Rullis-1024x.jpg",
+		    "width":1024,
+		    "height":696
+		 }
+	      ]
+	   },
+	   "image":[
+	      {
+		 "@type":"ImageObject",
+		 "@id":"https://ruu.lv/#post-image",
+		 "url":"https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-1600x.webp",
+		 "width":1600,
+		 "height":1071
+	      }
+	   ]
+	}
+	</script>
+	
 	<!-- ## AMP
 	* https://github.com/ampproject/amphtml/blob/master/examples/everything.amp.html
 	* https://playground.amp.dev/
@@ -33,85 +90,7 @@
   
     <script async src="https://cdn.ampproject.org/v0.js"></script>  
     <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>  
-  	<script type="application/ld+json">
-		[
-		   {
-		      "@context":"https://schema.org",
-		      "@type":"NewsArticle",
-		      "datePublished":"2019-11-12T10:00:00+08:00",
-		      "dateModified":"2019-11-12T10:20:00+08:00",
-		      "mainEntityOfPage":{
-			 "@type":"WebPage",
-			 "@id":"https://ruu.lv"
-		      },
-		      "headline":"Life captured on a photographic film 📸",
-		      "description":"Portraits, landscapes, emotions.",
-		      "author":{
-			 "@type":"Person",
-			 "name":"Janis Rullis"
-		      },
-		      "publisher":{
-			 "@type":"Organization",
-			 "name":"ruu.lv",
-			 "logo":{
-			    "url":"https://cdn.statically.io/img/ruu.lv/ui/img/logo/20191224-Poga-0001-Eyes-by-Janis-Rullis-1024x.jpg",
-			    "@type":"ImageObject"
-			 }
-		      },
-		      "image":[
-			 "https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-1600x.webp",
-			 "https://ik.imagekit.io/ruu/3/20190921-Sigulda-0003-Atis-by-Janis-Rullis-1600x.webp",
-			 "https://ik.imagekit.io/ruu/Lilaste-Forest/20190831-Lilaste-0001-Forest-by-Janis-Rullis-1600x.webp",
-			 "https://ik.imagekit.io/ruu/Oma-Album/20190822-Oma-0001-Album-by-Janis-Rullis-1600x.webp",
-			 "https://ik.imagekit.io/ruu/6-bel-fly/20190616-Belarus-Ukraine-0001-Sinevir-by-Janis-Rullis-1600x.webp",
-			 "https://ik.imagekit.io/ruu/4-kl-pav/20190820-Kurzeme-Klaipeda-0002-Pavilosta-by-Janis-Rullis-1600x.webp"
-		      ]
-		   },
-		   {
-		      "@context":"http://schema.org",
-		      "@type":"ImageGallery",
-		      "associatedMedia":[
-			 {
-			    "@context":"http://schema.org",
-			    "@type":"ImageObject",
-			    "contentUrl":"https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-1600x.webp",
-			    "caption":"Sigulda | © 2019 Janis Rullis | ruu.lv"
-			 },
-			 {
-			    "@context":"http://schema.org",
-			    "@type":"ImageObject",
-			    "contentUrl":"https://ik.imagekit.io/ruu/3/20190921-Sigulda-0003-Atis-by-Janis-Rullis-1600x.webp",
-			    "caption":"Sigulda | © 2019 Janis Rullis | ruu.lv"
-			 },
-			 {
-			    "@context":"http://schema.org",
-			    "@type":"ImageObject",
-			    "contentUrl":"https://ik.imagekit.io/ruu/Lilaste-Forest/20190831-Lilaste-0001-Forest-by-Janis-Rullis-1600x.webp",
-			    "caption":"Lilaste | © 2019 Janis Rullis | ruu.lv"
-			 },
-			 {
-			    "@context":"http://schema.org",
-			    "@type":"ImageObject",
-			    "contentUrl":"https://ik.imagekit.io/ruu/Oma-Album/20190822-Oma-0001-Album-by-Janis-Rullis-1600x.webp",
-			    "caption":"Oma | © 2019 Janis Rullis | ruu.lv"
-			 },
-			 {
-			    "@context":"http://schema.org",
-			    "@type":"ImageObject",
-			    "contentUrl":"https://ik.imagekit.io/ruu/6-bel-fly/20190616-Belarus-Ukraine-0001-Sinevir-by-Janis-Rullis-1600x.webp",
-			    "caption":"Belarus-Ukraine | © 2019 Janis Rullis | ruu.lv"
-			 },
-			 {
-			    "@context":"http://schema.org",
-			    "@type":"ImageObject",
-			    "contentUrl":"https://ik.imagekit.io/ruu/4-kl-pav/20190820-Kurzeme-Klaipeda-0002-Pavilosta-by-Janis-Rullis-1600x.webp",
-			    "caption":"Kurzeme-Klaipeda | © 2019 Janis Rullis | ruu.lv"
-			 }
-		      ]
-		   }
-		]
-	</script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript> 
 </head>
 <body>
  
