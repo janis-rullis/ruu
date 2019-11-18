@@ -1,4 +1,4 @@
-# Analog Photography | ruu.lv
+# Analog Photography | [ruu.lv](https://ruu.lv) 
 
 Life captured on a photographic film 📸
 
