@@ -182,7 +182,8 @@
 	<script>
 		var elem = document.documentElement;
 		var is_fullscreen=false;
-
+		var is_safari=navigator.userAgentg.indexOf("Safari") > -1;
+		
 		function toggleFullscreen(){
 		  if(is_fullscreen){
 		    closeFullscreen();				
@@ -249,7 +250,8 @@
 		    loadLazyPic(lazyPics[i]);
 		  }
 		}
-		document.addEventListener("DOMContentLoaded", function() {		   
+		document.addEventListener("DOMContentLoaded", function() {	   
+		  console.log('Safari?", is_safari);
 		  loadLazyPics();		   			
 		});
 	</script>
