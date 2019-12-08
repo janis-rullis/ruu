@@ -29,6 +29,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://ruu.lv/news/</link>
+     <title>Analog Photography | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://ruu.lv/video/1.html</link>
      <title>Analog Photography | Video 1 | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
