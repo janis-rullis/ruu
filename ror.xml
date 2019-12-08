@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://ruu.lv/</title>
+  <link>http://ruu.lv/</link>
+
+<item>
+     <link>https://ruu.lv/</link>
+     <title>Analog Photography | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/</link>
+     <title>Analog Photography | Video | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/2019-9.html</link>
+     <title>Analog Photography | 1 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/1.html</link>
+     <title>Analog Photography | Video 1 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/2019-8.html</link>
+     <title>Analog Photography | 2 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/2.html</link>
+     <title>Analog Photography | Video 2 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/2019-7.html</link>
+     <title>Analog Photography | 3 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/3.html</link>
+     <title>Analog Photography | Video 3 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

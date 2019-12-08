@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+>
 <url>
   <loc>https://ruu.lv/</loc>
-  <lastmod>2019-12-06T10:19:39+00:00</lastmod>
+  <lastmod>2019-12-08T10:19:39+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
  <image:image>
@@ -51,7 +53,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/2019-9.html</loc>
-  <lastmod>2019-12-06T11:19:39+00:00</lastmod>
+  <lastmod>2019-12-08T11:19:39+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.80</priority> 
  <image:image>
@@ -99,7 +101,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/2019-8.html</loc>
-  <lastmod>2019-12-06T11:19:39+00:00</lastmod>
+  <lastmod>2019-12-08T11:19:39+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>	 				 			 
   <image:image>
@@ -140,7 +142,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/2019-7.html</loc>
-  <lastmod>2019-12-06T11:19:39+00:00</lastmod>
+  <lastmod>2019-12-08T11:19:39+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.51</priority>		 
 <image:image>	
@@ -171,5 +173,25 @@
 	<image:geo_location>Riga, Latvia</image:geo_location>
 	<image:license>https://ruu.lv</image:license>
   </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/video/</loc>
+  <lastmod>2019-12-08T11:19:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ruu.lv/video/1.html</loc>
+  <lastmod>2019-12-08T11:19:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ruu.lv/video/2.html</loc>
+  <lastmod>2019-12-08T11:19:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ruu.lv/video/3.html</loc>
+  <lastmod>2019-12-08T11:19:39+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 </urlset>
