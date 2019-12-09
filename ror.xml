@@ -30,7 +30,7 @@
 </item>
 <item>
      <link>https://ruu.lv/news/</link>
-     <title>Analog Photography | ruu.lv</title>
+     <title>Analog Photography | 2019.09.30. Dita | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
@@ -53,6 +53,14 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://ruu.lv/news/20190820-Kurzeme-Klaipeda</link>
+     <title>Analog Photography | 2019.08.20. Kurzeme-Klaipeda | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://ruu.lv/video/2.html</link>
      <title>Analog Photography | Video 2 | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
@@ -63,6 +71,14 @@
 <item>
      <link>https://ruu.lv/2019-7.html</link>
      <title>Analog Photography | 3 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20190616-Belarus-Ukraine</link>
+     <title>Analog Photography | 2019.06.16 Belarus-Ukraine | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>3</ror:sortOrder>

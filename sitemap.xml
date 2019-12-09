@@ -5,7 +5,7 @@
 >
 <url>
   <loc>https://ruu.lv/</loc>
-  <lastmod>2019-12-08T10:19:39+00:00</lastmod>
+  <lastmod>2019-12-09T10:19:39+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
  <image:image>
@@ -53,7 +53,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/2019-9.html</loc>
-  <lastmod>2019-12-08T11:19:39+00:00</lastmod>
+  <lastmod>2019-12-09T11:19:39+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.80</priority> 
  <image:image>
@@ -101,7 +101,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/2019-8.html</loc>
-  <lastmod>2019-12-08T11:19:39+00:00</lastmod>
+  <lastmod>2019-12-09T11:19:39+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>	 				 			 
   <image:image>
@@ -142,7 +142,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/2019-7.html</loc>
-  <lastmod>2019-12-08T11:19:39+00:00</lastmod>
+  <lastmod>2019-12-09T11:19:39+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.51</priority>		 
 <image:image>	
@@ -176,27 +176,93 @@
 </url>
 <url>
   <loc>https://ruu.lv/video/</loc>
-  <lastmod>2019-12-08T11:19:39+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2019-12-09T11:19:39+00:00</lastmod>
+  <priority>0.80</priority>  
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/rdBFFi-URPY/default.jpg</image:loc>
+	<image:title>Analog Photography | Video | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Sigulda, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
 </url>
 <url>
   <loc>https://ruu.lv/video/1.html</loc>
-  <lastmod>2019-12-08T11:19:39+00:00</lastmod>
+  <lastmod>2019-12-09T11:19:39+00:00</lastmod>
   <priority>0.64</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/QCxEzSTquIY/default.jpg</image:loc>
+	<image:title>Analog Photography | Video 1 | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
 </url>
 <url>
   <loc>https://ruu.lv/video/2.html</loc>
-  <lastmod>2019-12-08T11:19:39+00:00</lastmod>
+  <lastmod>2019-12-09T11:19:39+00:00</lastmod>
   <priority>0.51</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/bf1bavW-pps/default.jpg</image:loc>
+	<image:title>Analog Photography | Video 2 | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Lode, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
 </url>
 <url>
   <loc>https://ruu.lv/video/3.html</loc>
-  <lastmod>2019-12-08T11:19:39+00:00</lastmod>
+  <lastmod>2019-12-09T11:19:39+00:00</lastmod>
   <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/jdygIfC6L0I/default.jpg</image:loc>
+	<image:title>Analog Photography | Video 3 | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Zaube, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
 </url>
 <url>
   <loc>https://ruu.lv/news/</loc>
-  <lastmod>2019-12-08T11:19:39+00:00</lastmod>
+  <lastmod>2019-12-09T11:19:39+00:00</lastmod>
   <priority>0.80</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://ik.imagekit.io/ruu/17-dita-proj/20190930-Dita-0002-Projections-by-Janis-Rullis-1600x.webp</image:loc>
+	<image:title>Dita | © 2019 Janis Rullis | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/news/20190820-Kurzeme-Klaipeda</loc>
+  <lastmod>2019-12-09T11:19:39+00:00</lastmod>
+  <priority>0.50</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://ik.imagekit.io/ruu/4-kl-pav/20190820-Kurzeme-Klaipeda-0002-Pavilosta-by-Janis-Rullis-1600x.webp</image:loc>
+	<image:title>Pavilosta | © 2019 Janis Rullis | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Pavilosta, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/news/20190616-Belarus-Ukraine</loc>
+  <lastmod>2019-12-09T11:19:39+00:00</lastmod>
+  <priority>0.40</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://ik.imagekit.io/ruu/20190616-Belarus-Ukraine/20190616-Belarus-Ukraine-0102-05-Sinevir-by-Janis-Rullis-1600x.webp</image:loc>
+	<image:title>Stone | © 2019 Janis Rullis | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Synevyr, Ukraine</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
 </url>
 </urlset>
