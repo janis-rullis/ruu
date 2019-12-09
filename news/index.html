@@ -1,6 +1,37 @@
 <!DOCTYPE html>
 <html>
- 	<style>
+  <head>	 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.min.css" integrity="sha256-D9AvR0EzkNZoWZVSvI3ch+uf/Z5izrIpcbsykVphwPU=" crossorigin="anonymous" />
+  
+	<script type="application/ld+json">
+	{
+	   "@context":"http://schema.org",
+	   "@type":"Organization",
+	   "@id":"https://ruu.lv/#organization",
+	   "name":"Analog Photography | Latest images | ruu.lv",
+	   "description":"Life captured on a photographic film 📸",
+	   "email":"ruu.lv.analog.photo@gmail.com",
+	   "url":"https://ruu.lv",
+	   "foundingDate":"2019",
+	   "logo":"https://cdn.statically.io/img/ruu.lv/ui/img/logo/20191224-Poga-0001-Eyes-by-Janis-Rullis-1024x.jpg",
+	   "image":[
+	      {
+		 "@type":"ImageObject",
+		 "@id":"https://ruu.lv/#logo",
+		 "url":"https://cdn.statically.io/img/ruu.lv/ui/img/logo/20191224-Poga-0001-Eyes-by-Janis-Rullis-1024x.jpg",
+		 "width":1024,
+		 "height":696
+	      }
+	   ],
+	   "sameAs":[
+	      "https://www.instagram.com/ruu.lv",
+	      "https://www.youtube.com/channel/UCz7LPJ_cSOByxABXynOGBtw"
+	   ]
+	}
+	</script>
+	  
+	<!-- TODO: Make shorter and offline cabable. -->
+	<style>
 		img {
 		display: block;
 		margin: 0 auto;
@@ -17,30 +48,31 @@
 	<link rel="manifest" href="https://ruu.lv/manifest.json" />
 	<meta name="viewport" content="width=device-width">
 	  
-	<title>Analog Photography | ruu.lv</title>	  
-	<meta name="title" content="Analog Photography | ruu.lv">
+	<title>Analog Photography | Latest images | ruu.lv</title>	  
+	<meta name="title" content="Analog Photography | Latest images | ruu.lv">
 	<meta name="description" content="Life captured on a photographic film 📸">	 
 	<link rel="canonical" href="https://ruu.lv" />	
 
-  <meta property="og:type" content="website">
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://ruu.lv/">
-	<meta property="og:title" content="Analog Photography | ruu.lv">
+	<meta property="og:title" content="Analog Photography| Latest images | ruu.lv">
 	<meta property="og:description" content="Life captured on a photographic film 📸">
 	<meta property="og:image" content="https://cdn.statically.io/img/ruu.lv/ui/img/logo/20191224-Poga-0001-Eyes-by-Janis-Rullis-1024x.jpg">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="https://ruu.lv/">
-	<meta property="twitter:title" content="Analog Photography | ruu.lv">
+	<meta property="twitter:title" content="Analog Photography| Latest images | ruu.lv">
 	<meta property="twitter:description" content="Life captured on a photographic film 📸">
 	<meta property="twitter:image" content="https://cdn.statically.io/img/ruu.lv/ui/img/logo/20191224-Poga-0001-Eyes-by-Janis-Rullis-1024x.jpg">	
   </head>
   <body style="width: 100%; max-width: 1920px;	margin: 0 auto;">
 	<header>
-  
+	  <!-- TODO: Add ALT and a title. -->	  
 	  <a href="mailto:ruu.lv.analog.photo@gmail.com" style="float: center;"><img src="https://cdn.statically.io/img/ruu.lv/ui/img/email.png"></a>
 	</header>
-	<main style="background: lightgray; min-height: 100px;">
+	<main style="background: lightgray; min-height: 1200px;">
 	  
 		<!--
 		<picture class="lazy">
@@ -53,34 +85,32 @@
 		  <img alt="DESCR" title="DESCR" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/PLACEHOLDER-700x-gray-placeholder.webp" data-src="https://ik.imagekit.io/ruu/DRIVELINK-1600x.webp" class="placeholder">
 		</picture>
 		-->
-		<!-- <picture class="lazy">
-		  <source type="image/webp" media="(min-width: 1610px)" data-srcset="https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-1920x.webp, https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-3840x.webp 2x">
-		  <source type="image/webp" media="(min-width: 1376px)" data-srcset="https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-1600x.webp, https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-3200x.webp 2x">
-		  <source type="image/webp" media="(min-width: 1034px)" data-srcset="https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-1366x.webp, https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-2732x.webp 2x">			  
-		  <source type="image/webp" media="(min-width: 778px)" data-srcset="https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-1024x.webp, https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-2048x.webp 2x">
-		  <source type="image/webp" media="(min-width: 460px)" data-srcset="https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-768x.webp, https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-1536x.webp 2x"> 			
-		  <source type="image/webp" media="(max-width: 459px)" data-srcset="https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-450x.webp, https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-900x.webp 2x">
-			  <img class="placeholder" src="https://cdn.statically.io/img/ruu.lv/ui/img/placeholder/20190921-Sigulda-0001-Alise-by-Janis-Rullis-700x-gray-placeholder.webp" alt="Sigulda | © 2019 Janis Rullis | ruu.lv" title="Sigulda | © 2019 Janis Rullis | ruu.lv"  data-src="https://ik.imagekit.io/ruu/1/20190921-Sigulda-0001-Alise-by-Janis-Rullis-1600x.webp">
-		</picture> -->
-    <h3 style="text-align: center;">News section will be ready till 2019-12-10.<br> Enjoy other sections till that :)</h3>
+		
 	</main>
-	<footer>    
-      <div style="display: block; width: 50%; float: left;">
-        <a href="/video" style="float: left;"><img src="https://cdn.statically.io/img/ruu.lv/ui/img/Feather-photo-and-video-video.svg?v=2"></a>
-        <a href="javascript:;" style="float: right;"><img src="https://cdn.statically.io/img/ruu.lv/ui/img/Ic_arrow_forward_48px.svg"></a>
-      </div>
-      <div style="display: block; width: 50%; float: left;">      
-        <a href="/" style="float: right;"><img src="https://cdn.statically.io/img/ruu.lv/ui/img/Picture_icon_BLACK.svg?v=3" style="padding-top: 4px;"></a>
-      </div>
+
+	<footer>
+		<div class="container-fluid p-0">
+			<div class="row no-gutters">
+			<div class="col-3">
+				<a style="float: left;" href="/video" ><img src="https://cdn.statically.io/img/ruu.lv/ui/img/Feather-photo-and-video-video.svg?v=2"></a>
+			</div>
+			<div class="col-6">
+				<a href="/2019-9.html"><img src="https://cdn.statically.io/img/ruu.lv/ui/img/Ic_arrow_forward_48px.svg"></a>
+			</div>
+			<div class="col-3">
+				<a style="float: right;" href="/"><img src="https://cdn.statically.io/img/ruu.lv/ui/img/Picture_icon_BLACK.svg?v=3"></a>				
+			</div>
+		</div>
+		</div>
 	</footer>
+
 	<script>
 		var elem = document.documentElement;
 		var is_fullscreen=false;
-				var is_webp_supported=false;
+		var is_webp_supported=false;
 
 		function detectBrowser(){
 			var sBrowser, sUsrAg = navigator.userAgent;
-
 			
 			if (sUsrAg.indexOf("Firefox") > -1) {
 			  sBrowser = "Mozilla Firefox";
@@ -106,15 +136,12 @@
 			} else {
 			  sBrowser = "unknown";
 			}
-//			console.log(sBrowser)
 			return sBrowser;
 		}
 
 		function isWebpSupported(){	
 			return detectBrowser() !== 'safari';
 		}
-
-
 
 		function toggleFullscreen(){
 		  if(is_fullscreen){
