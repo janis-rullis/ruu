@@ -1,6 +1,10 @@
 <!doctype html>
 <html ⚡>
 <head>
+
+  <!-- https://www.ampstart.com/components in the inspector look for the html tag inside iframe-->
+  <!-- https://www.ampstart.com/render/footer.amp#amp=1 -->
+
 	<!-- 
 	* https://amp.dev/documentation/components/amp-youtube/
 * https://videoschema.com/
@@ -29,8 +33,7 @@
 	<title>Analog Photography | Video | ruu.lv</title>	  
 	<meta name="title" content="Analog Photography | Video | ruu.lv">
 	<meta name="description" content="Life captured on a photographic film 📸">	 
-  <link rel="canonical" href="https://ruu.lv/video">
-    
+  <link rel="canonical" href="https://ruu.lv/video">    
   
   <!-- Image for a social network sharing. Useful https://metatags.io/ -->
 	<!-- Open Graph / Facebook -->
@@ -49,39 +52,52 @@
   
       <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
-  <style amp-custom>
-    body {
-      max-width: 527px;
-      font-family: 'Questrial', Arial;
-    }
-    [fallback] {
-      display: block;
-      /* @alternative */ display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      justify-content: center;
-      align-items: center;
-      background: rgba(0, 0, 0, 0.5);
-      color: #fff;
-    }
-    .spacer {
-      height: 100vh;
-    }
-  </style>
+  
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+    <style amp-custom="">
+    .list-reset {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .flex {
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .spread{
+      justify-content:space-between;
+    }
+    </style>
 </head>
 <body>
     <a href="mailto:ruu.lv.analog.photo@gmail.com" style="float: center;">
-        <amp-img src="https://cdn.statically.io/img/ruu.lv/ui/img/email.png" width="24" height="24" style="display: block; margin: 0 auto;"></amp-img>
-      </a>
+      <amp-img src="https://cdn.statically.io/img/ruu.lv/ui/img/email.png" width="24" height="24" style="display: block; margin: 0 auto;"></amp-img>
+    </a>
   <amp-youtube
   data-videoid="rdBFFi-URPY"
   layout="responsive"
   width="480"
   height="270"
 ></amp-youtube>
-<a href="/amp/video/1" style="float: center;">
-  <amp-img src="https://cdn.statically.io/img/ruu.lv/ui/img/Ic_arrow_forward_48px.svg" width="48" height="48" style="display: block; margin: 0 auto;"></amp-img>
-</a>  
+
+<ul class="list-reset flex spread">
+    <li>
+        <a href="/">               
+            <amp-img src="https://cdn.statically.io/img/ruu.lv/ui/img/Picture_icon_BLACK.svg?v=3" width="46" height="42" style=" padding-top: 12px; display: block; margin: 0 auto;"></amp-img>
+        </a>
+    </li>
+    <li>
+        <a href="/amp/video/1">              
+          <amp-img src="https://cdn.statically.io/img/ruu.lv/ui/img/Ic_arrow_forward_48px.svg" width="48" height="48" style="display: block; margin: 0 auto;"></amp-img>
+        </a>
+    </li>
+    <li>
+        <a href="/news">              
+          <amp-img src="https://cdn.statically.io/img/ruu.lv/ui/img/PICOL_icon_News.svg?v=2" width="42" height="42" style="display: block; margin: 0 auto;"></amp-img>
+        </a>
+    </li>
+</ul>   
+    
 </body></html>
