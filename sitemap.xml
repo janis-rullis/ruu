@@ -5,7 +5,7 @@
 >
 <url>
   <loc>https://ruu.lv/</loc>
-  <lastmod>2019-12-09T12:19:39+00:00</lastmod>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
  <image:image>
@@ -53,7 +53,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/2019-9.html</loc>
-  <lastmod>2019-12-09T12:19:39+00:00</lastmod>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.80</priority> 
  <image:image>
@@ -101,7 +101,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/2019-8.html</loc>
-  <lastmod>2019-12-09T12:19:39+00:00</lastmod>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.64</priority>	 				 			 
   <image:image>
@@ -142,7 +142,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/2019-7.html</loc>
-  <lastmod>2019-12-09T12:19:39+00:00</lastmod>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.51</priority>		 
 <image:image>	
@@ -176,7 +176,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/video/</loc>
-  <lastmod>2019-12-09T12:19:39+00:00</lastmod>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
   <priority>0.80</priority>  
   <changefreq>daily</changefreq>  		 
   <image:image>	
@@ -189,7 +189,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/video/1.html</loc>
-  <lastmod>2019-12-09T12:19:39+00:00</lastmod>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
   <priority>0.64</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
@@ -202,7 +202,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/video/2.html</loc>
-  <lastmod>2019-12-09T12:19:39+00:00</lastmod>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
   <priority>0.51</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
@@ -215,7 +215,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/video/3.html</loc>
-  <lastmod>2019-12-09T12:19:39+00:00</lastmod>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
   <priority>0.41</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
@@ -227,8 +227,164 @@
   </image:image>
 </url>
 <url>
+  <loc>https://ruu.lv/video/20190405-Edurio-Meeting</loc>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
+  <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/UETMkQH1q5o/default.jpg</image:loc>
+	<image:title>Analog Photography | 2019.04.05. Edurio-Meeting | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/video/20190406-Jugla</loc>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
+  <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/aInEpXUjLpg/default.jpg</image:loc>
+	<image:title>Analog Photography |  2019.04.06. Jugla | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/video/20190406-Riga</loc>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
+  <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/22PpmWaI4kI/default.jpg</image:loc>
+	<image:title>Analog Photography | 2019.04.06. Riga | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/video/20190520-Edurio-Expired-Film</loc>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
+  <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/CwhdSk7CL9A/default.jpg</image:loc>
+	<image:title>Analog Photography | 2019.05.20. Edurio-Expired-Film | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/video/20190520-Edurio</loc>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
+  <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/b9aHC5pBQSU/default.jpg</image:loc>
+	<image:title>Analog Photography | 2019.05.20. Edurio | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/video/20190521-Cepiens</loc>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
+  <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/Y4NuEpNYrbI/default.jpg</image:loc>
+	<image:title>Analog Photography | 2019.05.21. Cepiens | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/video/20190625-Daugava</loc>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
+  <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/TWfMOX_pmPI/default.jpg</image:loc>
+	<image:title>Analog Photography | 2019.06.25. Daugava | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/video/20191011-Renars</loc>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
+  <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/pKIWHQLe9QQ/default.jpg</image:loc>
+	<image:title>Analog Photography | 2019.10.11. Renars | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Sigulda, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/video/20191029-Dark</loc>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
+  <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/LdQB3lIj8nw/default.jpg</image:loc>
+	<image:title>Analog Photography | 2019.10.29. Dark | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/video/20191117-Swamp</loc>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
+  <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/Ah4E4paQGYI/default.jpg</image:loc>
+	<image:title>Analog Photography | 2019.11.17. Swamp | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Zaube, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/video/20191123-Voleri</loc>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
+  <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/YHj3AeLDoX0/default.jpg</image:loc>
+	<image:title>Analog Photography | 2019.11.23. Voleri | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/video/20191129-Caffenol</loc>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
+  <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/9RovtIMbfow/default.jpg</image:loc>
+	<image:title>Analog Photography | 2019.11.29. Caffenol | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
   <loc>https://ruu.lv/news/</loc>
-  <lastmod>2019-12-09T12:19:39+00:00</lastmod>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
   <priority>0.80</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
@@ -241,7 +397,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/news/20190820-Kurzeme-Klaipeda</loc>
-  <lastmod>2019-12-09T12:19:39+00:00</lastmod>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
   <priority>0.50</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
@@ -254,7 +410,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/news/20190616-Belarus-Ukraine</loc>
-  <lastmod>2019-12-09T12:19:39+00:00</lastmod>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
   <priority>0.40</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
@@ -267,7 +423,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/news/20190405-Edurio-Meeting.html</loc>
-  <lastmod>2019-04-05T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
@@ -300,7 +456,7 @@
 </image:image>
 </url><url>
   <loc>https://ruu.lv/news/20190406-Jugla.html</loc>
-  <lastmod>2019-04-06T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
@@ -333,7 +489,7 @@
 </image:image>
 </url><url>
   <loc>https://ruu.lv/news/20190406-Riga.html</loc>
-  <lastmod>2019-04-06T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
@@ -366,7 +522,7 @@
 </image:image>
 </url><url>
   <loc>https://ruu.lv/news/20190520-Edurio-Expired-Film.html</loc>
-  <lastmod>2019-05-20T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
@@ -406,7 +562,7 @@
 </image:image>
 </url><url>
   <loc>https://ruu.lv/news/20190520-Edurio.html</loc>
-  <lastmod>2019-05-20T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
@@ -439,7 +595,7 @@
 </image:image>
 </url><url>
   <loc>https://ruu.lv/news/20190521-Cepiens.html</loc>
-  <lastmod>2019-05-21T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
@@ -472,7 +628,7 @@
 </image:image>
 </url><url>
   <loc>https://ruu.lv/news/20190526-Narbuli.html</loc>
-  <lastmod>2019-05-26T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01TT10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
@@ -491,7 +647,7 @@
 </image:image>
 </url><url>
   <loc>https://ruu.lv/news/20190526-Zaube-Caffenol.html</loc>
-  <lastmod>2019-05-26T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01TT10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
@@ -524,7 +680,7 @@
 </image:image>
 </url><url>
   <loc>https://ruu.lv/news/20190526-Zaube-Exposed.html</loc>
-  <lastmod>2019-05-26T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01TT10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
@@ -557,7 +713,7 @@
 </image:image>
 </url><url>
   <loc>https://ruu.lv/news/20190623-Cesis.html</loc>
-  <lastmod>2019-06-23T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01TT10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
@@ -597,7 +753,7 @@
 </image:image>
 </url><url>
   <loc>https://ruu.lv/news/20190625-Daugava.html</loc>
-  <lastmod>2019-06-25T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
@@ -616,7 +772,7 @@
 </image:image>
 </url><url>
   <loc>https://ruu.lv/news/20191011-Renars.html</loc>
-  <lastmod>2019-10-11T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
@@ -635,7 +791,7 @@
 </image:image>
 </url><url>
   <loc>https://ruu.lv/news/20191029-Dark.html</loc>
-  <lastmod>2019-10-29T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
@@ -661,7 +817,7 @@
 </image:image>
 </url><url>
   <loc>https://ruu.lv/news/20191117-Swamp.html</loc>
-  <lastmod>2019-11-17T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
@@ -701,7 +857,7 @@
 </image:image>
 </url><url>
   <loc>https://ruu.lv/news/20191123-Voleri.html</loc>
-  <lastmod>2019-11-23T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
@@ -728,7 +884,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/news/20190930-Dita</loc>
-  <lastmod>2019-12-09T12:19:39+00:00</lastmod>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
   <priority>0.80</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
@@ -741,7 +897,7 @@
 </url>
 <url>
   <loc>https://ruu.lv/news</loc>
-  <lastmod>2019-11-29T10:00:00+00:00</lastmod>
+  <lastmod>2020-04-01T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
 <image:image>
