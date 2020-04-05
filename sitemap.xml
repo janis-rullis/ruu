@@ -180,7 +180,7 @@
   <priority>0.80</priority>  
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/rdBFFi-URPY/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/rdBFFi-URPY/sddefault.jpg</image:loc>
 	<image:title>Analog Photography | Video | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Sigulda, Latvia</image:geo_location>
@@ -193,7 +193,7 @@
   <priority>0.64</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/QCxEzSTquIY/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/QCxEzSTquIY/sddefault.jpg</image:loc>
 	<image:title>Analog Photography | Video 1 | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Riga, Latvia</image:geo_location>
@@ -206,7 +206,7 @@
   <priority>0.51</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/bf1bavW-pps/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/bf1bavW-pps/sddefault.jpg</image:loc>
 	<image:title>Analog Photography | Video 2 | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Lode, Latvia</image:geo_location>
@@ -219,7 +219,7 @@
   <priority>0.41</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/jdygIfC6L0I/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/jdygIfC6L0I/sddefault.jpg</image:loc>
 	<image:title>Analog Photography | Video 3 | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Zaube, Latvia</image:geo_location>
@@ -232,7 +232,7 @@
   <priority>0.41</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/UETMkQH1q5o/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/UETMkQH1q5o/sddefault.jpg</image:loc>
 	<image:title>Analog Photography | 2019.04.05. Edurio-Meeting | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Riga, Latvia</image:geo_location>
@@ -245,7 +245,7 @@
   <priority>0.41</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/aInEpXUjLpg/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/aInEpXUjLpg/sddefault.jpg</image:loc>
 	<image:title>Analog Photography |  2019.04.06. Jugla | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Riga, Latvia</image:geo_location>
@@ -258,7 +258,7 @@
   <priority>0.41</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/22PpmWaI4kI/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/22PpmWaI4kI/sddefault.jpg</image:loc>
 	<image:title>Analog Photography | 2019.04.06. Riga | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Riga, Latvia</image:geo_location>
@@ -271,7 +271,7 @@
   <priority>0.41</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/CwhdSk7CL9A/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/CwhdSk7CL9A/sddefault.jpg</image:loc>
 	<image:title>Analog Photography | 2019.05.20. Edurio-Expired-Film | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Riga, Latvia</image:geo_location>
@@ -284,7 +284,7 @@
   <priority>0.41</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/b9aHC5pBQSU/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/b9aHC5pBQSU/sddefault.jpg</image:loc>
 	<image:title>Analog Photography | 2019.05.20. Edurio | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Riga, Latvia</image:geo_location>
@@ -297,7 +297,7 @@
   <priority>0.41</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/Y4NuEpNYrbI/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/Y4NuEpNYrbI/sddefault.jpg</image:loc>
 	<image:title>Analog Photography | 2019.05.21. Cepiens | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Riga, Latvia</image:geo_location>
@@ -310,7 +310,7 @@
   <priority>0.41</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/TWfMOX_pmPI/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/TWfMOX_pmPI/sddefault.jpg</image:loc>
 	<image:title>Analog Photography | 2019.06.25. Daugava | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Riga, Latvia</image:geo_location>
@@ -323,7 +323,7 @@
   <priority>0.41</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/pKIWHQLe9QQ/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/pKIWHQLe9QQ/sddefault.jpg</image:loc>
 	<image:title>Analog Photography | 2019.10.11. Renars | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Sigulda, Latvia</image:geo_location>
@@ -336,7 +336,7 @@
   <priority>0.41</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/LdQB3lIj8nw/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/LdQB3lIj8nw/sddefault.jpg</image:loc>
 	<image:title>Analog Photography | 2019.10.29. Dark | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Riga, Latvia</image:geo_location>
@@ -349,7 +349,7 @@
   <priority>0.41</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/Ah4E4paQGYI/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/Ah4E4paQGYI/sddefault.jpg</image:loc>
 	<image:title>Analog Photography | 2019.11.17. Swamp | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Zaube, Latvia</image:geo_location>
@@ -362,7 +362,7 @@
   <priority>0.41</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/YHj3AeLDoX0/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/YHj3AeLDoX0/sddefault.jpg</image:loc>
 	<image:title>Analog Photography | 2019.11.23. Voleri | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Riga, Latvia</image:geo_location>
@@ -375,7 +375,7 @@
   <priority>0.41</priority>
   <changefreq>daily</changefreq>  		 
   <image:image>	
-	<image:loc>https://i.ytimg.com/vi/9RovtIMbfow/default.jpg</image:loc>
+	<image:loc>https://i.ytimg.com/vi/9RovtIMbfow/sddefault.jpg</image:loc>
 	<image:title>Analog Photography | 2019.11.29. Caffenol | ruu.lv</image:title>
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Riga, Latvia</image:geo_location>
