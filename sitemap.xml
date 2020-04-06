@@ -227,6 +227,45 @@
   </image:image>
 </url>
 <url>
+  <loc>https://ruu.lv/video/20190616-Belarus-Ukraine.html</loc>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
+  <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/-BWKsy_dl-g/sddefault.jpg</image:loc>
+	<image:title>Analog Photography | 2019.06.16. Belarus-Ukraine | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Ukraine</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/video/20190930-Dita.html</loc>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
+  <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/i9f9aJfLtuM/sddefault.jpg</image:loc>
+	<image:title>Analog Photography | 2019.09.30. Dita | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Riga, Latvia</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
+  <loc>https://ruu.lv/video/20190820-Kurzeme-Klaipeda.html</loc>
+  <lastmod>2020-04-01T12:19:39+00:00</lastmod>
+  <priority>0.41</priority>
+  <changefreq>daily</changefreq>  		 
+  <image:image>	
+	<image:loc>https://i.ytimg.com/vi/hSEwG6H5kUI/sddefault.jpg</image:loc>
+	<image:title>Analog Photography | 2019.08.20. Kurzeme-Klaipeda | ruu.lv</image:title>
+	<image:caption>Life captured on a photographic film 📸</image:caption>	
+	<image:geo_location>Klaipeda, Lithuania</image:geo_location>
+	<image:license>https://ruu.lv</image:license>
+  </image:image>
+</url>
+<url>
   <loc>https://ruu.lv/video/20190405-Edurio-Meeting</loc>
   <lastmod>2020-04-01T12:19:39+00:00</lastmod>
   <priority>0.41</priority>
