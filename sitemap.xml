@@ -21,7 +21,7 @@
 	<image:caption>Life captured on a photographic film 📸</image:caption>	
 	<image:geo_location>Sigulda, Latvia</image:geo_location>
 	<image:license>https://ruu.lv</image:license>
-  </image:image>
+  </image:image>  
   <image:image>
 	<image:loc>https://cdn.statically.io/img/r9.lv/i/20190831-Lilaste-0001-Forest-by-Janis-Rullis-1600x.webp</image:loc>
 	<image:title>Lilaste | © 2019 Janis Rullis | ruu.lv</image:title>
@@ -1208,7 +1208,7 @@
   </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20181113-Cats.html</loc>
+  <loc>https://ruu.lv/news/20181113-Cats.html</loc>
   <lastmod>2018-11-13T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1228,7 +1228,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20181203-BW.html</loc>
+  <loc>https://ruu.lv/news/20181203-BW.html</loc>
   <lastmod>2018-12-03T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1255,7 +1255,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20181203-Cats.html</loc>
+  <loc>https://ruu.lv/news/20181203-Cats.html</loc>
   <lastmod>2018-12-03T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1289,7 +1289,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20181203-Edurio.html</loc>
+  <loc>https://ruu.lv/news/20181203-Edurio.html</loc>
   <lastmod>2018-12-03T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1323,7 +1323,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20181203-Lauma.html</loc>
+  <loc>https://ruu.lv/news/20181203-Lauma.html</loc>
   <lastmod>2018-12-03T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1350,7 +1350,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20190106-Edurio.html</loc>
+  <loc>https://ruu.lv/news/20190106-Edurio.html</loc>
   <lastmod>2019-01-06T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1377,7 +1377,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20190114-Countryside.html</loc>
+  <loc>https://ruu.lv/news/20190114-Countryside.html</loc>
   <lastmod>2019-01-14T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1404,7 +1404,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20190301-March-2019.html</loc>
+  <loc>https://ruu.lv/news/20190301-March-2019.html</loc>
   <lastmod>2019-03-01T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1431,7 +1431,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20190310-Cesis.html</loc>
+  <loc>https://ruu.lv/news/20190310-Cesis.html</loc>
   <lastmod>2019-03-10T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1465,7 +1465,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20190311-Station.html</loc>
+  <loc>https://ruu.lv/news/20190311-Station.html</loc>
   <lastmod>2019-03-11T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1492,7 +1492,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20190324-Mezciems.html</loc>
+  <loc>https://ruu.lv/news/20190324-Mezciems.html</loc>
   <lastmod>2019-03-24T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1519,7 +1519,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20190330-Forest.html</loc>
+  <loc>https://ruu.lv/news/20190330-Forest.html</loc>
   <lastmod>2019-03-30T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1546,7 +1546,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20190402-Bolderajs.html</loc>
+  <loc>https://ruu.lv/news/20190402-Bolderajs.html</loc>
   <lastmod>2019-04-02T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1580,7 +1580,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20190403-Bio.html</loc>
+  <loc>https://ruu.lv/news/20190403-Bio.html</loc>
   <lastmod>2019-04-03T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1614,41 +1614,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20190403-Bio.html</loc>
-  <lastmod>2019-04-03T10:00:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.50</priority>
-<image:image>
-	<image:loc>https://cdn.statically.io/img/r9.lv/i/20190403-Bio-0001-01-Bio-by-Janis-Rullis-1600x.webp</image:loc>
-	<image:title>Bio | © 2020 Janis Rullis | ruu.lv</image:title>
-	<image:caption>Life captured on a photographic film 📸</image:caption>
-	<image:geo_location>Latvia</image:geo_location>
-	<image:license>https://ruu.lv</image:license>
-</image:image>
-<image:image>
-	<image:loc>https://cdn.statically.io/img/r9.lv/i/20190403-Bio-0002-02-Dita-by-Janis-Rullis-1600x.webp</image:loc>
-	<image:title>Bio | © 2020 Janis Rullis | ruu.lv</image:title>
-	<image:caption>Life captured on a photographic film 📸</image:caption>
-	<image:geo_location>Latvia</image:geo_location>
-	<image:license>https://ruu.lv</image:license>
-</image:image>
-<image:image>
-	<image:loc>https://cdn.statically.io/img/r9.lv/i/20190403-Bio-0003-02-Dita-by-Janis-Rullis-1600x.webp</image:loc>
-	<image:title>Bio | © 2020 Janis Rullis | ruu.lv</image:title>
-	<image:caption>Life captured on a photographic film 📸</image:caption>
-	<image:geo_location>Latvia</image:geo_location>
-	<image:license>https://ruu.lv</image:license>
-</image:image>
-<image:image>
-	<image:loc>https://cdn.statically.io/img/r9.lv/i/20190403-Bio-0004-03-Bio-by-Janis-Rullis-1600x.webp</image:loc>
-	<image:title>Bio | © 2020 Janis Rullis | ruu.lv</image:title>
-	<image:caption>Life captured on a photographic film 📸</image:caption>
-	<image:geo_location>Latvia</image:geo_location>
-	<image:license>https://ruu.lv</image:license>
-</image:image>
-</url>
-<url>
-  <loc>https://ruu.lv/20190407-Jugla.html</loc>
+  <loc>https://ruu.lv/news/20190407-Jugla.html</loc>
   <lastmod>2019-04-07T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1682,7 +1648,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20190407-Krustabaznica.html</loc>
+  <loc>https://ruu.lv/news/20190407-Krustabaznica.html</loc>
   <lastmod>2019-04-07T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1716,7 +1682,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20190413-Countryside.html</loc>
+  <loc>https://ruu.lv/news/20190413-Countryside.html</loc>
   <lastmod>2019-04-13T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1750,7 +1716,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20190420-Close-up.html</loc>
+  <loc>https://ruu.lv/news/20190420-Close-up.html</loc>
   <lastmod>2019-04-20T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1784,7 +1750,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20190422-Ciekurkalns.html</loc>
+  <loc>https://ruu.lv/news/20190422-Ciekurkalns.html</loc>
   <lastmod>2019-04-22T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
@@ -1811,7 +1777,7 @@
 </image:image>
 </url>
 <url>
-  <loc>https://ruu.lv/20190422-Rails.html</loc>
+  <loc>https://ruu.lv/news/20190422-Rails.html</loc>
   <lastmod>2019-04-22T10:00:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.50</priority>
