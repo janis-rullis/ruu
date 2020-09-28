@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
 <channel>
-  <title>ROR Sitemap for http://ruu.lv/</title>
-  <link>http://ruu.lv/</link>
+  <title>ROR Sitemap for https://ruu.lv/</title>
+  <link>https://ruu.lv/</link>
 
 <item>
      <link>https://ruu.lv/</link>
@@ -30,7 +30,7 @@
 </item>
 <item>
      <link>https://ruu.lv/news/</link>
-     <title>Analog Photography | 2019.11.29. Caffenol | ruu.lv</title>
+     <title>Analog Photography | 2020.08.20. Jugla's Shoemaker | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
@@ -53,8 +53,8 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://ruu.lv/news/20191123-Voleri</link>
-     <title>Analog Photography | 2019.11.23. Voleri | ruu.lv</title>
+     <link>https://ruu.lv/news/20200815-Straw-season</link>
+     <title>Analog Photography | 2020.08.15. Straw season | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
@@ -77,8 +77,8 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://ruu.lv/news/20191117-Swamp</link>
-     <title>Analog Photography | 2019.11.17. Swamp | ruu.lv</title>
+     <link>https://ruu.lv/news/20200810-Looking-for-Raspberries</link>
+     <title>Analog Photography | 2020.08.10. Looking for Raspberries | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>3</ror:sortOrder>
@@ -93,11 +93,331 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://ruu.lv/news/20200808-Class-party-or-Klassnij-partij</link>
+     <title>Analog Photography | 2020.08.08. Class party or Klassnij partij | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200820-Juglas-Shoemaker</link>
+     <title>Analog Photography | 2020.08.20. Juglas Shoemaker | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>5</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200807-Roberts-and-his-Camera</link>
+     <title>Analog Photography | 2020.08.07. Roberts and his Camera | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>5</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200815-Straw-season</link>
+     <title>Analog Photography | 2020.08.15. Straw season | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>6</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200806-Depo-Smells-like-The-90s</link>
+     <title>Analog Photography | 2020.08.06. Depo: Smells like The 90's | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>6</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200810-Looking-for-Raspberries</link>
+     <title>Analog Photography | 2020.08.10. Looking for Raspberries | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>7</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200803-Riga-Portrait</link>
+     <title>Analog Photography | 2020.08.03. A Portrait of Riga | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>7</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200808-Class-party-or-Klassnij-partij</link>
+     <title>Analog Photography | 2020.08.08. Class party or Klassnij partij | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>8</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200801-Summer-Trip-to-Selija-Part-1</link>
+     <title>Analog Photography | 2020.08.01. Summer Trip to Selija Part 1 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>8</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200807-Roberts-and-his-Camera</link>
+     <title>Analog Photography | 2020.08.07. Roberts and his Camera | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>9</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200801-Summer-Trip-to-Selija-Part-2</link>
+     <title>Analog Photography | 2020.08.01. Summer Trip to Selija Part 2 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>9</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200806-Depo-Smells-like-The-90s</link>
+     <title>Analog Photography | 2020.08.06. Depo: Smells like The 90's | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>10</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200801-Black-and-White-Riga</link>
+     <title>Analog Photography | 2020.08.01. Black and White Riga |ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>10</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200803-Riga-Portrait</link>
+     <title>Analog Photography | 2020.08.03. A Portrait of Riga | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>11</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200725-Summer-trip-to-Apalkalns</link>
+     <title>Analog Photography | 2020.07.25. Summer trip to Apalkalns | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>11</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200801-Summer-Trip-to-Selija-Part-1</link>
+     <title>Analog Photography | 2020.08.01. Summer Trip to Selija Part 1 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>12</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200719-Summer-trip-to-Lapmezciems-Part-1</link>
+     <title>Analog Photography | 2020.07.19. Summer trip to Lapmezciems Part 1 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>12</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200801-Summer-Trip-to-Selija-Part-2</link>
+     <title>Analog Photography | 2020.08.01. Summer Trip to Selija Part 2 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>13</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200719-Summer-trip-to-Lapmezciems-Part-2</link>
+     <title>Analog Photography | 2020.07.19. Summer trip to Lapmezciems Part 2 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>13</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200801-Black-and-White-Riga</link>
+     <title>Analog Photography | 2020.08.01. Black and White Riga | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>14</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200705-The-Cabin-in-the-Woods-Part-1</link>
+     <title>Analog Photography | 2020.07.05. The Cabin in the Woods Part 1 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>14</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200725-Summer-trip-to-Apalkalns</link>
+     <title>Analog Photography | 2020.07.25. Summer trip to Apalkalns | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>15</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200705-The-Cabin-in-the-Woods-Part-2</link>
+     <title>Analog Photography | 2020.07.05. The Cabin in the Woods Part 2 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>15</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200719-Summer-trip-to-Lapmezciems-Part-1</link>
+     <title>Analog Photography | 2020.07.19. Summer trip to Lapmezciems Part 1 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>16</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200704-Masterok</link>
+     <title>Analog Photography | 2020.07.04. Masterok | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>16</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200719-Summer-trip-to-Lapmezciems-Part-2</link>
+     <title>Analog Photography | 2020.07.19. Summer trip to Lapmezciems Part 2 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>17</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200702-Summer-trip-to-Roja</link>
+     <title>Analog Photography | 2020.07.02. Summer trip to Roja | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>17</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200705-The-Cabin-in-the-Woods-Part-1</link>
+     <title>Analog Photography | 2020.07.05. The Cabin in the Woods Part 1 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>18</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200623-Rebuki-2020-Jani</link>
+     <title>Analog Photography | 2020.06.23. Kurzeme's Midsummer | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>18</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200705-The-Cabin-in-the-Woods-Part-2</link>
+     <title>Analog Photography | 2020.07.05. The Cabin in the Woods Part 2 | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>19</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200621-Planting-Tomatoes</link>
+     <title>Analog Photography | 2020.06.21. Planting Tomatoes | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>19</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200704-Masterok</link>
+     <title>Analog Photography | 2020.07.04. Masterok | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>20</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20200529-Dita-Vecakji</link>
+     <title>Analog Photography | 2020.05.29. Going after the Spring Sun | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>20</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200702-Summer-trip-to-Roja</link>
+     <title>Analog Photography | 2020.07.02. Summer trip to Roja | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>21</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20191129-Caffenol</link>
+     <title>Analog Photography | 2019.11.29. Caffenol | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>21</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200623-Rebuki-2020-Jani</link>
+     <title>Analog Photography | 2020.06.23. Kurzeme's Midsummer | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>22</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20191123-Voleri</link>
+     <title>Analog Photography | 2019.11.23. Voleri | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>22</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200621-Planting-Tomatoes</link>
+     <title>Analog Photography | 2020.06.21. Planting Tomatoes | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>23</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/news/20191117-Swamp</link>
+     <title>Analog Photography | 2019.11.17. Swamp | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>23</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://ruu.lv/video/20200529-Dita-Vecakji</link>
+     <title>Analog Photography | 2020.05.29. Going after the Spring Sun | ruu.lv</title>
+     <description>Life captured on a photographic film 📸</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>24</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://ruu.lv/news/20191029-Dark</link>
      <title>Analog Photography | 2019.10.29. Dark | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>4</ror:sortOrder>
+     <ror:sortOrder>24</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -105,7 +425,7 @@
      <title>Analog Photography | 2019.11.29. Caffenol | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>5</ror:sortOrder>
+     <ror:sortOrder>25</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -113,7 +433,7 @@
      <title>Analog Photography | 2019.10.11. Renars | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>5</ror:sortOrder>
+     <ror:sortOrder>25</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -121,7 +441,7 @@
      <title>Analog Photography | 2019.11.23. Voleri | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>6</ror:sortOrder>
+     <ror:sortOrder>26</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -129,7 +449,7 @@
      <title>Analog Photography | 2019.09.30. Dita | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>6</ror:sortOrder>
+     <ror:sortOrder>26</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -137,7 +457,7 @@
      <title>Analog Photography | 2019.11.17. Swamp | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>7</ror:sortOrder>
+     <ror:sortOrder>27</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -145,7 +465,7 @@
      <title>Analog Photography | 2019.08.20. Kurzeme-Klaipeda | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>7</ror:sortOrder>
+     <ror:sortOrder>27</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -153,7 +473,7 @@
      <title>Analog Photography | 2019.10.29. Dark | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>8</ror:sortOrder>
+     <ror:sortOrder>28</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -161,7 +481,7 @@
      <title>Analog Photography | 2019.06.25. Daugava | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>8</ror:sortOrder>
+     <ror:sortOrder>28</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -169,7 +489,7 @@
      <title>Analog Photography | 2019.10.11. Renars | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>9</ror:sortOrder>
+     <ror:sortOrder>29</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -177,7 +497,7 @@
      <title>Analog Photography | 2019.06.23. Cesis | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>9</ror:sortOrder>
+     <ror:sortOrder>29</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -185,7 +505,7 @@
      <title>Analog Photography | 2019.09.30. Dita | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>10</ror:sortOrder>
+     <ror:sortOrder>30</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -193,7 +513,7 @@
      <title>Analog Photography | 2019.06.16 Belarus-Ukraine | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>10</ror:sortOrder>
+     <ror:sortOrder>30</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -201,7 +521,7 @@
      <title>Analog Photography | 2019.08.20. Kurzeme-Klaipeda | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>11</ror:sortOrder>
+     <ror:sortOrder>31</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -209,7 +529,7 @@
      <title>Analog Photography | 2019.05.26. Zaube-Exposed | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>11</ror:sortOrder>
+     <ror:sortOrder>31</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -217,7 +537,7 @@
      <title>Analog Photography | 2019.06.25. Daugava | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>12</ror:sortOrder>
+     <ror:sortOrder>32</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -225,7 +545,7 @@
      <title>Analog Photography | 2019.05.26. Zaube-Caffenol | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>12</ror:sortOrder>
+     <ror:sortOrder>32</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -233,7 +553,7 @@
      <title>Analog Photography | 2019.06.23. Cesis | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>13</ror:sortOrder>
+     <ror:sortOrder>33</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -241,7 +561,7 @@
      <title>Analog Photography | 2019.05.26. Narbuli | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>13</ror:sortOrder>
+     <ror:sortOrder>33</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -249,7 +569,7 @@
      <title>Analog Photography | 2019.06.16. Belarus-Ukraine | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>14</ror:sortOrder>
+     <ror:sortOrder>34</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -257,7 +577,7 @@
      <title>Analog Photography | 2019.05.21. Cepiens | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>14</ror:sortOrder>
+     <ror:sortOrder>34</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -265,7 +585,7 @@
      <title>Analog Photography | 2019.05.26. Zaube-Exposed | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>15</ror:sortOrder>
+     <ror:sortOrder>35</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -273,7 +593,7 @@
      <title>Analog Photography | 2019.05.20. Edurio | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>15</ror:sortOrder>
+     <ror:sortOrder>35</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -281,7 +601,7 @@
      <title>Analog Photography | 2019.05.26. Zaube-Caffenol | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>16</ror:sortOrder>
+     <ror:sortOrder>36</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -289,7 +609,7 @@
      <title>Analog Photography | 2019.05.20. Edurio-Expired-Film | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>16</ror:sortOrder>
+     <ror:sortOrder>36</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -297,7 +617,7 @@
      <title>Analog Photography | 2019.05.26. Narbuli | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>17</ror:sortOrder>
+     <ror:sortOrder>37</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -305,7 +625,7 @@
      <title>Analog Photography | 2019.04.27. BW | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>17</ror:sortOrder>
+     <ror:sortOrder>37</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -313,7 +633,7 @@
      <title>Analog Photography | 2019.05.21. Cepiens | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>18</ror:sortOrder>
+     <ror:sortOrder>38</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -321,7 +641,7 @@
      <title>Analog Photography | 2019.04.22. Rails | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>18</ror:sortOrder>
+     <ror:sortOrder>38</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -329,7 +649,7 @@
      <title>Analog Photography | 2019.05.20. Edurio | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>19</ror:sortOrder>
+     <ror:sortOrder>39</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -337,7 +657,7 @@
      <title>Analog Photography | 2019.04.22. Ciekurkalns | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>19</ror:sortOrder>
+     <ror:sortOrder>39</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -345,7 +665,7 @@
      <title>Analog Photography | 2019.05.20. Edurio-Expired-Film | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>20</ror:sortOrder>
+     <ror:sortOrder>40</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -353,7 +673,7 @@
      <title>Analog Photography | 2019.04.20. Close-up | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>20</ror:sortOrder>
+     <ror:sortOrder>40</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -361,7 +681,7 @@
      <title>Analog Photography | 2019.04.27. BW | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>21</ror:sortOrder>
+     <ror:sortOrder>41</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -369,7 +689,7 @@
      <title>Analog Photography | 2019.04.13. Countryside | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>21</ror:sortOrder>
+     <ror:sortOrder>41</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -377,7 +697,7 @@
      <title>Analog Photography | 2019.04.22. Rails | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>22</ror:sortOrder>
+     <ror:sortOrder>42</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -385,7 +705,7 @@
      <title>Analog Photography | 2019.04.07. Krustabaznica | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>22</ror:sortOrder>
+     <ror:sortOrder>42</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -393,7 +713,7 @@
      <title>Analog Photography | 2019.04.20. Close-up | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>23</ror:sortOrder>
+     <ror:sortOrder>43</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -401,7 +721,7 @@
      <title>Analog Photography | 2019.04.07. Jugla | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>23</ror:sortOrder>
+     <ror:sortOrder>43</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -409,7 +729,7 @@
      <title>Analog Photography | 2019.04.13. Countryside | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>24</ror:sortOrder>
+     <ror:sortOrder>44</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -417,7 +737,7 @@
      <title>Analog Photography | 2019.04.06. Riga | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>24</ror:sortOrder>
+     <ror:sortOrder>44</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -425,7 +745,7 @@
      <title>Analog Photography | 2019.04.07. Krustabaznica | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>25</ror:sortOrder>
+     <ror:sortOrder>45</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -433,7 +753,7 @@
      <title>Analog Photography | 2019.04.06. Jugla | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>25</ror:sortOrder>
+     <ror:sortOrder>45</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -441,7 +761,7 @@
      <title>Analog Photography | 2019.04.07. Jugla | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>26</ror:sortOrder>
+     <ror:sortOrder>46</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -449,7 +769,7 @@
      <title>Analog Photography | 2019.04.05. Edurio-Meeting | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>26</ror:sortOrder>
+     <ror:sortOrder>46</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -457,7 +777,7 @@
      <title>Analog Photography | 2019.04.06. Riga | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>27</ror:sortOrder>
+     <ror:sortOrder>47</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -465,7 +785,7 @@
      <title>Analog Photography | 2019.04.03. Bio | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>27</ror:sortOrder>
+     <ror:sortOrder>47</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -473,7 +793,7 @@
      <title>Analog Photography | 2019.04.06. Jugla | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>28</ror:sortOrder>
+     <ror:sortOrder>48</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -481,7 +801,7 @@
      <title>Analog Photography | 2019.04.02. Bolderajs | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>28</ror:sortOrder>
+     <ror:sortOrder>48</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -489,7 +809,7 @@
      <title>Analog Photography | 2019.04.05. Edurio-Meeting | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>29</ror:sortOrder>
+     <ror:sortOrder>49</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -497,7 +817,7 @@
      <title>Analog Photography | 2019.03.30. Forest | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>29</ror:sortOrder>
+     <ror:sortOrder>49</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -505,7 +825,7 @@
      <title>Analog Photography | 2019.04.02. Bolderajs | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>30</ror:sortOrder>
+     <ror:sortOrder>50</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -513,7 +833,7 @@
      <title>Analog Photography | 2019.03.24. Mezciems | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>30</ror:sortOrder>
+     <ror:sortOrder>50</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -521,7 +841,7 @@
      <title>Analog Photography | 2019.03.30. Forest | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>31</ror:sortOrder>
+     <ror:sortOrder>51</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -529,7 +849,7 @@
      <title>Analog Photography | 2019.03.11. Station | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>31</ror:sortOrder>
+     <ror:sortOrder>51</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -537,7 +857,7 @@
      <title>Analog Photography | 2019.03.24. Mezciems | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>32</ror:sortOrder>
+     <ror:sortOrder>52</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -545,7 +865,7 @@
      <title>Analog Photography | 2019.03.10. Cesis | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>32</ror:sortOrder>
+     <ror:sortOrder>52</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -553,7 +873,7 @@
      <title>Analog Photography | 2019.03.11. Station | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>33</ror:sortOrder>
+     <ror:sortOrder>53</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -561,7 +881,7 @@
      <title>Analog Photography | 2019.03.01. March-2019 | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>33</ror:sortOrder>
+     <ror:sortOrder>53</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -569,7 +889,7 @@
      <title>Analog Photography | 2019.03.10. Cesis | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>34</ror:sortOrder>
+     <ror:sortOrder>54</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -577,7 +897,7 @@
      <title>Analog Photography | 2019.01.14. Countryside | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>34</ror:sortOrder>
+     <ror:sortOrder>54</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -585,7 +905,7 @@
      <title>Analog Photography | 2019.03.01. March-2019 | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>35</ror:sortOrder>
+     <ror:sortOrder>55</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -593,7 +913,7 @@
      <title>Analog Photography | 2019.01.06. Edurio | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>35</ror:sortOrder>
+     <ror:sortOrder>55</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -601,7 +921,7 @@
      <title>Analog Photography | 2019.01.14. Countryside | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>36</ror:sortOrder>
+     <ror:sortOrder>56</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -609,7 +929,7 @@
      <title>Analog Photography | 2018.12.03. Lauma | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>36</ror:sortOrder>
+     <ror:sortOrder>56</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -617,7 +937,7 @@
      <title>Analog Photography | 2019.01.06. Edurio | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>37</ror:sortOrder>
+     <ror:sortOrder>57</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -625,7 +945,7 @@
      <title>Analog Photography | 2018.12.03. Edurio | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>37</ror:sortOrder>
+     <ror:sortOrder>57</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -633,7 +953,7 @@
      <title>Analog Photography | 2018.12.03. Lauma | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>38</ror:sortOrder>
+     <ror:sortOrder>58</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -641,7 +961,7 @@
      <title>Analog Photography | 2018.12.03. Cats | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>38</ror:sortOrder>
+     <ror:sortOrder>58</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -649,7 +969,7 @@
      <title>Analog Photography | 2018.12.03. Edurio | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>39</ror:sortOrder>
+     <ror:sortOrder>59</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -657,7 +977,7 @@
      <title>Analog Photography | 2018.12.03. BW | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>39</ror:sortOrder>
+     <ror:sortOrder>59</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -665,7 +985,7 @@
      <title>Analog Photography | 2018.12.03. Cats | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>40</ror:sortOrder>
+     <ror:sortOrder>60</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -673,7 +993,7 @@
      <title>Analog Photography | 2018.11.13. Cats | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>40</ror:sortOrder>
+     <ror:sortOrder>60</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -681,7 +1001,7 @@
      <title>Analog Photography | 2018.12.03. BW | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>41</ror:sortOrder>
+     <ror:sortOrder>61</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
@@ -689,7 +1009,7 @@
      <title>Analog Photography | 2018.11.13. Cats | ruu.lv</title>
      <description>Life captured on a photographic film 📸</description>
      <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>42</ror:sortOrder>
+     <ror:sortOrder>62</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 </channel>
