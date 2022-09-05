@@ -197,81 +197,82 @@
             </div>
         </div>
     </footer>
-    <script>
-        var elem = document.documentElement;
-        var is_fullscreen = false;
+</body>
+<script>
+    var elem = document.documentElement;
+    var is_fullscreen = false;
 
-        function toggleFullscreen() {
-            if (is_fullscreen) {
-                closeFullscreen();
-            } else {
-                openFullscreen();
-            }
+    function toggleFullscreen() {
+        if (is_fullscreen) {
+            closeFullscreen();
+        } else {
+            openFullscreen();
+        }
+    }
+
+    // TODO: Check if can remove any of these checks.
+    function openFullscreen() {
+        is_fullscreen = true;
+        document.getElementById('fullscreen-btn').style.background = "#d3d3d366";
+        if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+        } else if (elem.mozRequestFullScreen) { /* Firefox */
+            elem.mozRequestFullScreen();
+        } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+            elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) { /* IE/Edge */
+            elem.msRequestFullscreen();
+        }
+    }
+
+    // TODO: Check if can remove any of these checks.
+    function closeFullscreen() {
+        is_fullscreen = false;
+        document.getElementById('fullscreen-btn').style.background = "initial";
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if (document.msExitFullscreen) {
+            document.msExitFullscreen();
+        }
+    }
+
+    // TODO: Make shorter - convert to ES6. Keep the readability.
+    // Activate an image by setting it's target.
+    function loadLazyPic(lazyPic) {
+        var sources, source, img;
+
+        // In 'source' element.
+        sources = lazyPic.querySelectorAll("source")
+        var srcCnt = sources.length;
+        for (var j = 0; j < srcCnt; j++) {
+            source = sources[j];
+            source.srcset = source.dataset.srcset;
         }
 
-        // TODO: Check if can remove any of these checks.
-        function openFullscreen() {
-            is_fullscreen = true;
-            document.getElementById('fullscreen-btn').style.background = "#d3d3d366";
-            if (elem.requestFullscreen) {
-                elem.requestFullscreen();
-            } else if (elem.mozRequestFullScreen) { /* Firefox */
-                elem.mozRequestFullScreen();
-            } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
-                elem.webkitRequestFullscreen();
-            } else if (elem.msRequestFullscreen) { /* IE/Edge */
-                elem.msRequestFullscreen();
-            }
+        // In 'img' element.
+        img = lazyPic.querySelector("img");
+        img.setAttribute('src', img.getAttribute('data-src'));
+
+        // Mark the image as processed;				
+        lazyPic.classList.remove("lazy");
+    }
+
+    // Activate all images than needs to be loaded with a delay.
+    function loadLazyPics() {
+        var lazyPics = document.querySelectorAll(".lazy")
+        for (var i = 0; i < lazyPics.length; i++) {
+            // Execture this every 0,05s. Note, the `* i`, otherwise everything is executed at the same time.
+            setTimeout(loadLazyPic, 50 * i, lazyPics[i]);
         }
-
-        // TODO: Check if can remove any of these checks.
-        function closeFullscreen() {
-            is_fullscreen = false;
-            document.getElementById('fullscreen-btn').style.background = "initial";
-            if (document.exitFullscreen) {
-                document.exitFullscreen();
-            } else if (document.mozCancelFullScreen) {
-                document.mozCancelFullScreen();
-            } else if (document.webkitExitFullscreen) {
-                document.webkitExitFullscreen();
-            } else if (document.msExitFullscreen) {
-                document.msExitFullscreen();
-            }
-        }
-
-        // TODO: Make shorter - convert to ES6. Keep the readability.
-        // Activate an image by setting it's target.
-        function loadLazyPic(lazyPic) {
-            var sources, source, img;
-
-            // In `source` element.
-            sources = lazyPic.querySelectorAll("source")
-            var srcCnt = sources.length;
-            for (var j = 0; j < srcCnt; j++) {
-                source = sources[j];
-                source.srcset = source.dataset.srcset;
-            }
-
-            // In `img` element.
-            img = lazyPic.querySelector("img");
-            img.setAttribute('src', img.getAttribute('data-src'));
-
-            // Mark the image as processed;				
-            lazyPic.classList.remove("lazy");
-        }
-
-        // Activate all images than needs to be loaded with a delay.
-        function loadLazyPics() {
-            var lazyPics = document.querySelectorAll(".lazy")
-            for (var i = 0; i < lazyPics.length; i++) {
-                // Execture this every 0,05s. Note, the `* i`, otherwise everything is executed at the same time.
-                setTimeout(loadLazyPic, 50 * i, lazyPics[i]);
-            }
-        }
-        document.addEventListener("DOMContentLoaded", function() {
-            loadLazyPics();
-        });
-    </script>
+    }
+    document.addEventListener("DOMContentLoaded", function() {
+        loadLazyPics();
+    });
+</script>
 
 
 </html> document.addEventListener("DOMContentLoaded", function () { is_webp_supported = isWebpSupported(); loadLazyPics(); });

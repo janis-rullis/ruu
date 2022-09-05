@@ -245,7 +245,7 @@
     function loadLazyPic(lazyPic) {
         var sources, source, img;
 
-        // In `source` element.
+        // In 'source' element.
         sources = lazyPic.querySelectorAll("source")
         var srcCnt = sources.length;
         for (var j = 0; j < srcCnt; j++) {
@@ -253,7 +253,7 @@
             source.srcset = source.dataset.srcset;
         }
 
-        // In `img` element.
+        // In 'img' element.
         img = lazyPic.querySelector("img");
         img.setAttribute('src', img.getAttribute('data-src'));
 
@@ -274,5 +274,7 @@
     });
 </script>
 
+
+</html>
 
 </html>

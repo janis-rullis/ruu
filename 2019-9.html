@@ -245,7 +245,7 @@
     function loadLazyPic(lazyPic) {
         var sources, source, img;
 
-        // In `source` element.
+        // In 'source' element.
         sources = lazyPic.querySelectorAll("source")
         var srcCnt = sources.length;
         for (var j = 0; j < srcCnt; j++) {
@@ -253,7 +253,7 @@
             source.srcset = source.dataset.srcset;
         }
 
-        // In `img` element.
+        // In 'img' element.
         img = lazyPic.querySelector("img");
         img.setAttribute('src', img.getAttribute('data-src'));
 
@@ -275,7 +275,9 @@
 </script>
 
 
-</html> source.srcset = source.dataset.srcset; } // In `img` element. img = lazyPic.querySelector("img"); src = img.getAttribute('data-src'); // Fall back to JPG. if(!is_webp_supported){ src = src.replace('webp', 'jpg'); } img.setAttribute('src', src); // Mark
+</html>
+
+</html> source.srcset = source.dataset.srcset; } // In 'img' element. img = lazyPic.querySelector("img"); src = img.getAttribute('data-src'); // Fall back to JPG. if(!is_webp_supported){ src = src.replace('webp', 'jpg'); } img.setAttribute('src', src); // Mark
 the image as processed; lazyPic.classList.remove("lazy"); } // Activate all images than needs to be loaded with a delay. function loadLazyPics(){ var lazyPics = document.querySelectorAll(".lazy") for(var i = 0; i
 < lazyPics.length; i++){ // Execture this every 0,05s. Note, the `* i`, otherwise everything is executed at the same time. setTimeout(loadLazyPic, 50 * i, lazyPics[i]); } } document.addEventListener( "DOMContentLoaded", function() { is_webp_supported=i
     sWebpSupported(); loadLazyPics(); }); </script>
