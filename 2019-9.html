@@ -274,13 +274,9 @@
     });
 </script>
 
-
-</html>
-
 </html> source.srcset = source.dataset.srcset; } // In 'img' element. img = lazyPic.querySelector("img"); src = img.getAttribute('data-src'); // Fall back to JPG. if(!is_webp_supported){ src = src.replace('webp', 'jpg'); } img.setAttribute('src', src); // Mark
 the image as processed; lazyPic.classList.remove("lazy"); } // Activate all images than needs to be loaded with a delay. function loadLazyPics(){ var lazyPics = document.querySelectorAll(".lazy") for(var i = 0; i
 < lazyPics.length; i++){ // Execture this every 0,05s. Note, the `* i`, otherwise everything is executed at the same time. setTimeout(loadLazyPic, 50 * i, lazyPics[i]); } } document.addEventListener( "DOMContentLoaded", function() { is_webp_supported=i
     sWebpSupported(); loadLazyPics(); }); </script>
-
 
     </html>

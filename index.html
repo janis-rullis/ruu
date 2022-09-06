@@ -274,14 +274,10 @@
     });
 </script>
 
-
-</html>
-
 </html> // In 'source' element. sources = lazyPic.querySelectorAll("source") var srcCnt = sources.length; for(var j = 0; j
-< srcCnt; j++){ source=s ources[j]; // Fall back to JPG. if(!is_webp_supported){ source.dataset.srcset=s ource.dataset.srcset.replace( 'webp', 'jpg'); source.type=s ource.type.replace( 'webp', 'jpg'); } source.srcset=s ource.dataset.srcset; } // In 'img'
-    element. img=l azyPic.querySelector( "img"); src=i mg.getAttribute( 'data-src'); // Fall back to JPG. if(!is_webp_supported){ src=s rc.replace( 'webp', 'jpg'); } img.setAttribute( 'src', src); // Mark the image as processed; lazyPic.classList.remove(
+< srcCnt; j++){ source=s ources[j]; // Fall back to JPG. if(!is_webp_supported){ source.dataset.srcset=s ource.dataset.srcset.replace( 'webp', 'jpg'); source.type=s ource.type.replace( 'webp', 'jpg'); } source.srcset=s ource.dataset.srcset; } // In
+    'img' element. img=l azyPic.querySelector( "img"); src=i mg.getAttribute( 'data-src'); // Fall back to JPG. if(!is_webp_supported){ src=s rc.replace( 'webp', 'jpg'); } img.setAttribute( 'src', src); // Mark the image as processed; lazyPic.classList.remove(
     "lazy"); } // Activate all images than needs to be loaded with a delay. function loadLazyPics(){ var lazyPics=d ocument.querySelectorAll( ".lazy") for(var i=0 ; i < lazyPics.length; i++){ // Execture this every 0,05s. Note, the `* i`, otherwise everything
     is executed at the same time. setTimeout(loadLazyPic, 50 * i, lazyPics[i]); } } document.addEventListener( "DOMContentLoaded", function() { is_webp_supported=i sWebpSupported(); loadLazyPics(); }); </script>
-
 
     </html>
